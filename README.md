@@ -1,5 +1,69 @@
 # Mapping
 
+# 🧩 Compliance Maturity Chain  
+### From NIS2 → EU AI Act → Cyber Resilience Act → ISO 27001 → Customer Trust
+
+---
+
+## **1️⃣ NIS2 Directive – Security Foundations**
+- Establishes **organizational and technical measures** for essential and important entities.  
+- Focus areas: Asset management, incident response, supplier risk, and business continuity.  
+- **Outcome:** A secure operational baseline for digital infrastructure and critical services.  
+
+> 🧠 **Dependency:** The AI Act and CRA assume NIS2 maturity for core security capabilities.
+
+---
+
+## **2️⃣ EU AI Act – Accountable and Explainable AI**
+- Introduces risk-based governance for AI systems (high-risk use cases such as critical infrastructure monitoring and leak detection).  
+- Requires **human-in-the-loop (HITL)** oversight, bias controls, and AI lifecycle documentation.  
+- Builds on the NIS2 security baseline for **data integrity and traceability.**
+
+> 🧠 **Dependency:** Without a secure NIS2 foundation, AI compliance cannot be sustained.
+
+---
+
+## **3️⃣ Cyber Resilience Act (CRA) – Product and Software Security**
+- Focuses on **secure-by-design development**, vulnerability handling, and post-market monitoring.  
+- Ensures connected products (including AI-based utilities platforms) maintain cyber resilience throughout their lifecycle.  
+- Extends the organizational controls of NIS2 and technical controls of AI Act into product engineering.
+
+> 🧠 **Dependency:** NIS2 = governance layer; CRA = technical implementation layer.
+
+---
+
+## **4️⃣ ISO/IEC 27001 – Integrated Management System**
+- Provides the formal Information Security Management System (ISMS) that unites NIS2, AI Act, and CRA controls.  
+- Maps organizational processes, risk management, and continuous improvement to audit-ready frameworks.  
+- Acts as a “control hub” ensuring consistency and evidence across all EU requirements.
+
+> 🧠 **Dependency:** ISO 27001 turns regulatory compliance into sustainable operations.
+
+---
+
+## **5️⃣ Customer Trust & EU Market Readiness**
+- When NIS2, AI Act, and CRA controls are implemented within an ISO 27001 ISMS:  
+  - Customers see **transparency and accountability.**  
+  - Regulatory audits become simpler and faster.  
+  - Market confidence and partnership opportunities increase.
+
+---
+
+## ⚡ **Critical Insight: Unified Governance Builds Trust**
+> Achieving compliance with NIS2, EU AI Act, and CRA is not a checkbox exercise — it is a chain of interdependent maturity levels.  
+>  
+> When implemented through a unified framework (such as Thinkwerke’s CIR³ Framework):  
+> - Each directive reinforces the others.  
+> - Governance becomes proactive rather than reactive.  
+> - The organization gains **resilience, audit readiness, and lasting customer trust.**
+
+---
+
+**Prepared by:** Thinkwerke – Strategy Meets Security  
+**Date:** October 2025  
+**Audience:** Diehl Metering / Preventio Executive Leadership
+
+
 # NIS2 Directive – Core Control Requirements Checklist  
 *Aligned with ENISA, NIS2 Directive Articles 21 & 23, and ISO/IEC 27001 Control Mapping*
 
