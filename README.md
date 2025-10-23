@@ -58,10 +58,37 @@
 > - The organization gains **resilience, audit readiness, and lasting customer trust.**
 
 ---
+# ENISA Compliance Mind Map — Utilities / Critical Infrastructure  
+*Based on ENISA Baseline Security Measures (2023) & Cybersecurity Maturity Model (2024)*  
+*Customized for Utility, Water, and Energy Operators – Aligned with NIS2, AI Act, CRA, and ISO 27001*
 
-# ENISA-Linked Compliance Overview  
-### NIS2 · EU AI Act · Cyber Resilience Act · ISO 27001 · Cross-Regulation Governance  
-*Prepared for Diehl Metering / Preventio – by Thinkwerke (CIR³ Framework)*  
+| **Domain** | **ENISA Control Category** | **Focus Area / Objective** | **Utility-Specific Implementation (Azure / Databricks)** | **Linked Regulation / Article** |
+|-------------|----------------------------|-----------------------------|-----------------------------------------------------------|----------------------------------|
+| **1. Governance & Accountability** | Policy & Risk Management | Define risk ownership, establish policies, and assign board-level accountability. | Adopt unified NIS2 governance; risk owners mapped in Azure AD and ServiceNow CMDB. | NIS2 Art. 21(1), ISO 27001 A.5 |
+| **2. Asset & Configuration Management** | Asset Identification | Maintain updated CMDB of OT/IT systems, datasets, and AI models. | Use Azure Resource Graph, Defender for Cloud, and Unity Catalog for full inventory. | NIS2 Art. 21(2)(a), CRA Annex I |
+| **3. Access & Identity Security** | Authentication & Authorization | Enforce least privilege, MFA, and just-in-time access. | Implement Azure AD PIM, SCIM sync with Databricks, and RBAC in Unity Catalog. | NIS2 Art. 21(2)(c), ISO 27001 A.5.17 |
+| **4. Threat & Vulnerability Management** | Security Operations & Patch Mgmt | Detect, assess, and mitigate vulnerabilities across environments. | Enable Defender for Cloud, integrate patch validation via CI/CD and Databricks cluster policies. | CRA Art. 10, NIS2 Art. 21(2)(d) |
+| **5. Data Protection & AI Integrity** | Data Security & AI Governance | Protect data integrity, ensure lawful processing, and control AI model risk. | Use Microsoft Purview, Unity Catalog masking, and MLflow lineage to enforce AI transparency. | AI Act Art. 9–15, GDPR, NIS2 Art. 21 |
+| **6. Incident Management & Reporting** | Detection & Notification | Implement structured detection, triage, and reporting workflows. | Route Databricks audit logs to Sentinel; Logic Apps for 24h/72h NIS2 reporting templates. | NIS2 Art. 23, ENISA IR Guidelines |
+| **7. Supply Chain Security** | Third-Party Risk | Assess and monitor dependencies, vendors, and firmware integrity. | Evaluate supplier risk through Azure Policy, ACR image scanning, and SBOM in CI/CD. | NIS2 Art. 21(2)(f), CRA Annex II |
+| **8. Backup & Recovery** | Business Continuity | Ensure resilience via recovery testing and redundant design. | Use ADLS versioning, Delta Lake time travel, and quarterly restoration validation. | NIS2 Art. 21(2)(e), ISO 27001 A.5.29 |
+| **9. Secure Development & Product Resilience** | Secure SDLC | Apply security-by-design principles to connected devices and software. | Integrate DevSecOps gates, static code analysis, and CRA conformity in release pipeline. | CRA Annex I & II, ENISA SDLC Framework |
+| **10. Monitoring & Continuous Improvement** | Audit, Metrics & Maturity | Continuously assess and improve security maturity using ENISA’s model. | Deploy Thinkwerke CIR³ Framework with Grafana & Sentinel dashboards for compliance metrics. | ENISA Maturity Model 2024, ISO 27001 A.9 |
+| **11. Awareness & Training** | Human Factors | Build staff competence in cybersecurity, compliance, and AI ethics. | Conduct quarterly workshops on NIS2 and AI risk; integrate Azure Learning Path analytics. | NIS2 Recital 68, ISO 27001 A.6 |
+| **12. Reporting & Board Oversight** | Governance Reporting | Provide evidence-driven reports to executive and supervisory authorities. | Generate unified compliance dashboard (CIR³) for board oversight and ENISA-style quarterly reports. | NIS2 Art. 25, ENISA Oversight Model |
+
+---
+
+### 🔍 Summary Insight
+> ENISA’s model expects **continuous, evidence-based cybersecurity governance** across the lifecycle — from **board accountability to AI-driven automation**.  
+> For utilities, integrating NIS2, AI Act, and CRA controls within a unified framework (like **Thinkwerke CIR³**) delivers measurable resilience, compliance, and customer trust.
+
+---
+
+**Prepared by:** Thinkwerke – Strategy Meets Security  
+**Date:** October 2025  
+**Audience:** Preventio / Diehl Metering Executive & Data Engineering Teams  
+  
 
 | **Regulation**                                | **Key ENISA Focus / Articles**                                                                                                                                                | **What ENISA Expects**                                                                                                                                                     | **Utility-Specific Compliance Actions**                                                                                                                                     | **Deliverables / Evidence**                                                                                     |
 | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
