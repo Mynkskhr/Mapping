@@ -138,3 +138,46 @@
 
 **Prepared by:** Thinkwerke – Strategy Meets Security  
 **Date:** October 2025
+
+
+# 🤖 EU AI Act Compliance Checklist  
+### Databricks on Azure – Water Leak Detection AI (Utilities / Critical Infrastructure – Germany)
+*Aligned with EU AI Act (Reg. EU 2024/1689), ENISA AI Security Framework, and ISO/IEC 42001*
+
+| **AI Act Requirement** | **Description / Intent** | **Implementation on Databricks (Azure)** | **Evidence / Deliverables** | **Linked Articles / Annexes** |
+|-------------------------|--------------------------|-------------------------------------------|------------------------------|-------------------------------|
+| **AI System Classification** | Determine if system is *high-risk* under Annex III (critical infrastructure & water management). | Classify leak detection models as *High-Risk AI*; register in compliance catalog. | AI System Register (with risk level, owner, and version). | **Art. 6–7**, **Annex III(1)(b)** |
+| **Risk Management Framework** | Establish continuous risk identification, evaluation, and mitigation process for AI lifecycle. | Deploy AI Risk Register in Databricks (Delta table); integrate with Purview lineage and CI/CD risk gates. | Risk Register, Mitigation Matrix, CI/CD logs. | **Art. 9** |
+| **Data Governance & Quality** | Ensure datasets are accurate, representative, and free from bias. | Manage datasets through Unity Catalog with source lineage, data validation notebooks, and bias detection scripts. | Data Quality Report, Bias Analysis Summary. | **Art. 10(3–5)** |
+| **Technical Documentation (Conformity File)** | Maintain detailed documentation of design, data sources, architecture, and version history. | Auto-generate documentation using MLflow metadata and model registry. | Conformity File (Annex IV format). | **Art. 11**, **Annex IV** |
+| **Record-Keeping & Logging** | Enable traceability of operations, model updates, and decisions. | Store inference logs in ADLS and MLflow; log metadata (model ID, run ID, parameters). | MLflow Logs, Inference Audit Trail. | **Art. 12** |
+| **Transparency & Explainability** | Ensure users can interpret AI outputs and decisions. | Implement SHAP / LIME explainability notebooks in Databricks; expose results in Power BI dashboard. | Explainability Report, Model Interpretability Metrics. | **Art. 13** |
+| **Human Oversight (HITL)** | Ensure human-in-the-loop validation for critical AI decisions. | Define HITL workflow in Databricks Jobs; approval steps triggered via Logic Apps. | HITL Policy Document, Event Logs, Approval Records. | **Art. 14** |
+| **Accuracy, Robustness & Cybersecurity** | Maintain high levels of accuracy, resilience to drift, and protection from manipulation. | Track model drift with MLflow metrics; Sentinel integration for anomaly alerts; enforce runtime security. | Model Drift Report, Sentinel Logs, Adversarial Test Results. | **Art. 15**, **ENISA AI Security** |
+| **Conformity Assessment** | Verify that the system meets EU harmonized standards before deployment. | Conduct internal pre-assessment; validate against ENISA AI baseline and ISO/IEC 42001. | Conformity Assessment Record, Validation Checklist. | **Art. 43**, **Annex VI** |
+| **Post-Market Monitoring** | Continuously monitor AI performance and compliance after release. | Automate monitoring via Sentinel and Grafana dashboards; track incidents through CIR³ framework. | Monitoring Dashboard, Periodic AI Review Report. | **Art. 61**, **Annex VII** |
+| **Incident & Risk Reporting** | Notify competent authority within 15 days for serious incidents or non-compliance. | Integrate Logic App alert pipeline for regulatory notifications and internal escalation. | Incident Report Template, Notification Logs. | **Art. 62** |
+| **Data Protection & GDPR Alignment** | Ensure data minimization, lawful basis, and data subject rights. | Use Purview DLP classification; anonymize datasets at Silver layer before model training. | DPA / DTIA Reports, Data Masking Proofs. | **GDPR Art. 5–6**, **AI Act Recital 44** |
+| **Supplier & Third-Party Model Control** | Manage third-party AI models and libraries under CRA/NIS2 supply chain obligations. | Maintain SBOM and version tracking in ACR; validate dependencies with Defender for DevOps. | SBOM File, Dependency Security Report. | **Art. 28**, **CRA Annex II** |
+| **Accountability & Governance** | Assign roles and document decision-making responsibilities. | Define AI Compliance Officer role in Azure AD; map to organizational RACI under CIR³ Framework. | Governance Matrix, Role Register. | **Art. 29**, **ENISA Governance Baseline** |
+
+---
+
+### 🧩 Integration with Thinkwerke CIR³ Framework  
+The CIR³ Framework (Continuous Intelligence · Integration · Resilience) ensures:
+- Unified governance across NIS2, AI Act, CRA, and ISO 27001.  
+- ENISA-compliant evidence trail and dashboard view for internal audits.  
+- HITL accountability, data traceability, and model lifecycle assurance.  
+
+---
+
+### 🔍 Summary
+> Implementing the EU AI Act within Databricks on Azure provides not only compliance, but also continuous assurance.  
+> By connecting governance (NIS2) and product resilience (CRA) through unified AI lifecycle management,  
+> utilities gain **transparency, safety, and trust — essential for EU market readiness**.
+
+---
+
+**Prepared by:** Thinkwerke – Strategy Meets Security  
+**Date:** October 2025  
+**Audience:** Preventio / Diehl Metering Engineering & AI Governance Teams
