@@ -1,6 +1,6 @@
 # Mapping
 
-# 🧩 Compliance Maturity Chain  
+# Compliance Maturity Chain  
 ### From NIS2 → EU AI Act → Cyber Resilience Act → ISO 27001 → Customer Trust
 
 ---
@@ -10,7 +10,7 @@
 - Focus areas: Asset management, incident response, supplier risk, and business continuity.  
 - **Outcome:** A secure operational baseline for digital infrastructure and critical services.  
 
-> 🧠 **Dependency:** The AI Act and CRA assume NIS2 maturity for core security capabilities.
+>  **Dependency:** The AI Act and CRA assume NIS2 maturity for core security capabilities.
 
 ---
 
@@ -19,7 +19,7 @@
 - Requires **human-in-the-loop (HITL)** oversight, bias controls, and AI lifecycle documentation.  
 - Builds on the NIS2 security baseline for **data integrity and traceability.**
 
-> 🧠 **Dependency:** Without a secure NIS2 foundation, AI compliance cannot be sustained.
+>  **Dependency:** Without a secure NIS2 foundation, AI compliance cannot be sustained.
 
 ---
 
@@ -28,7 +28,7 @@
 - Ensures connected products (including AI-based utilities platforms) maintain cyber resilience throughout their lifecycle.  
 - Extends the organizational controls of NIS2 and technical controls of AI Act into product engineering.
 
-> 🧠 **Dependency:** NIS2 = governance layer; CRA = technical implementation layer.
+>  **Dependency:** NIS2 = governance layer; CRA = technical implementation layer.
 
 ---
 
@@ -37,7 +37,7 @@
 - Maps organizational processes, risk management, and continuous improvement to audit-ready frameworks.  
 - Acts as a “control hub” ensuring consistency and evidence across all EU requirements.
 
-> 🧠 **Dependency:** ISO 27001 turns regulatory compliance into sustainable operations.
+>  **Dependency:** ISO 27001 turns regulatory compliance into sustainable operations.
 
 ---
 
@@ -49,7 +49,7 @@
 
 ---
 
-## ⚡ **Critical Insight: Unified Governance Builds Trust**
+##  **Critical Insight: Unified Governance Builds Trust**
 > Achieving compliance with NIS2, EU AI Act, and CRA is not a checkbox exercise — it is a chain of interdependent maturity levels.  
 >  
 > When implemented through a unified framework (such as Thinkwerke’s CIR³ Framework):  
@@ -79,15 +79,14 @@
 
 ---
 
-### 🔍 Summary Insight
+###  Summary Insight
 > ENISA’s model expects **continuous, evidence-based cybersecurity governance** across the lifecycle — from **board accountability to AI-driven automation**.  
 > For utilities, integrating NIS2, AI Act, and CRA controls within a unified framework (like **Thinkwerke CIR³**) delivers measurable resilience, compliance, and customer trust.
 
 ---
 
 **Prepared by:** Thinkwerke – Strategy Meets Security  
-**Date:** October 2025  
-**Audience:** Preventio / Diehl Metering Executive & Data Engineering Teams  
+**Date:** October 2025 
   
 
 | **Regulation**                                | **Key ENISA Focus / Articles**                                                                                                                                                | **What ENISA Expects**                                                                                                                                                     | **Utility-Specific Compliance Actions**                                                                                                                                     | **Deliverables / Evidence**                                                                                     |
@@ -140,7 +139,7 @@
 **Date:** October 2025
 
 
-# 🤖 EU AI Act Compliance Checklist  
+#  EU AI Act Compliance Checklist  
 ### Databricks on Azure – Water Leak Detection AI (Utilities / Critical Infrastructure – Germany)
 *Aligned with EU AI Act (Reg. EU 2024/1689), ENISA AI Security Framework, and ISO/IEC 42001*
 
@@ -163,7 +162,7 @@
 
 ---
 
-### 🧩 Integration with Thinkwerke CIR³ Framework  
+###  Integration with Thinkwerke CIR³ Framework  
 The CIR³ Framework (Continuous Intelligence · Integration · Resilience) ensures:
 - Unified governance across NIS2, AI Act, CRA, and ISO 27001.  
 - ENISA-compliant evidence trail and dashboard view for internal audits.  
@@ -171,7 +170,7 @@ The CIR³ Framework (Continuous Intelligence · Integration · Resilience) ensur
 
 ---
 
-### 🔍 Summary
+###  Summary
 > Implementing the EU AI Act within Databricks on Azure provides not only compliance, but also continuous assurance.  
 > By connecting governance (NIS2) and product resilience (CRA) through unified AI lifecycle management,  
 > utilities gain **transparency, safety, and trust — essential for EU market readiness**.
@@ -179,5 +178,4 @@ The CIR³ Framework (Continuous Intelligence · Integration · Resilience) ensur
 ---
 
 **Prepared by:** Thinkwerke – Strategy Meets Security  
-**Date:** October 2025  
-**Audience:** Preventio / Diehl Metering Engineering & AI Governance Teams
+**Date:** October 2025
