@@ -63,8 +63,7 @@ The CIR³ Framework is founded on three core principles:
 
 ---
 
-## 💡 Strategic Advantage  
-> By adopting the **CIR³ Framework**, Diehl Metering / Preventio gains not only compliance but sustainable cybersecurity intelligence.  
+## Strategic Advantage   
 >  
 > CIR³ transforms compliance into a **living system** — measurable, teachable, and continuously improving.  
 >  
