@@ -1,17 +1,17 @@
-# ⚙️ Thinkwerke CIR³ Framework  
+# Thinkwerke CIR³ Framework  
 ### Continuous Intelligence · Integration · Resilience  
 *A Unified Compliance & Cybersecurity Framework for Utilities and Critical Infrastructure*
 
 ---
 
-## 🌐 Overview  
+## Overview  
 The **CIR³ Framework** (Continuous Intelligence · Integration · Resilience) is a **strategic–technical compliance model** designed by **Thinkwerke** to operationalize European cybersecurity and AI governance laws — including the **EU NIS2 Directive**, **EU AI Act**, and **Cyber Resilience Act (CRA)** — under a unified management system aligned to **ISO/IEC 27001** and **ENISA maturity guidance**.
 
 CIR³ enables organizations to **move from regulatory obligation to proactive resilience**, integrating governance, AI oversight, and product security within the same operational ecosystem.  
 
 ---
 
-## 🧠 Framework Philosophy  
+## Framework Philosophy  
 The CIR³ Framework is founded on three core principles:
 
 | **Pillar** | **Purpose** | **Outcome** |
@@ -22,7 +22,7 @@ The CIR³ Framework is founded on three core principles:
 
 ---
 
-## 🏗️ Architecture of the CIR³ Framework
+## Architecture of the CIR³ Framework
 
 | **Layer** | **Focus Area** | **Core Components (Azure / Databricks)** | **Linked Regulations & Standards** |
 |------------|----------------|------------------------------------------|------------------------------------|
@@ -34,7 +34,7 @@ The CIR³ Framework is founded on three core principles:
 
 ---
 
-## 🔄 Phased Implementation Model
+## Phased Implementation Model
 
 | **Phase** | **Objective** | **Deliverables** | **Success Indicators** |
 |------------|----------------|------------------|------------------------|
@@ -44,7 +44,7 @@ The CIR³ Framework is founded on three core principles:
 
 ---
 
-## 🧩 Key Benefits for Utilities / Critical Infrastructure
+## Key Benefits for Utilities / Critical Infrastructure
 
 | **Dimension** | **Challenge** | **How CIR³ Solves It** |
 |----------------|----------------|-------------------------|
@@ -55,11 +55,6 @@ The CIR³ Framework is founded on three core principles:
 | **Audit Readiness** | Manual compliance documentation | Provides continuous audit trails and ENISA-formatted summaries. |
 
 ---
-
-## 📊 Integration with Diehl Metering / Preventio Ecosystem  
-
-- **Data Pipeline Context:**  
-  IoT Hub → Event Hub → ADLS (Private Endpoints) → Databricks (Bronze–Silver–Gold) → MLflow Registry → Power BI / APIs → Sentinel & Purview  
 
 - **Compliance Outcome:**  
   - >80% overlap with ISO 27001 controls  
@@ -79,5 +74,4 @@ The CIR³ Framework is founded on three core principles:
 
 **Prepared by:** Thinkwerke – Strategy Meets Security  
 **Date:** October 2025  
-**Framework Author:** [Your Name], CISM · ISO 27001 LI · CASP+  
-**Audience:** Diehl Metering / Preventio Executive Leadership, Data Engineering & Product Teams
+**Framework Author:** Mayank Sekhar, CISM · ISO 27001 LI · AWS SA Pro · CompTIA SecurityX Architect · NIS2 and DORA Trained Pro
