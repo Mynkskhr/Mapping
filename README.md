@@ -55,8 +55,7 @@ Today, I specialise in helping organisations achieve **ISO 27001, GDPR, NIS2, DO
 - **ISO 27001:2022 Lead Implementer**, TÜV SÜD 2025
 - **NIS2, and DORA Professional 2025 (EU Compliance)**
 - **CompTIA SecurityX**, (Should be Completed in November 2025) (Gold Level Security Architect Certification)
-- **AWS Certified Security – Specialty**  (Validity Expired but SKills did not) (Link - https://www.credly.com/badges/b9c37026-9df0-4257-920d-aba226f1f6b0?source=linked_in_profile)
-  - 
+- **AWS Certified Security – Specialty** Validity Expired but Skills did not - Link - https://www.credly.com/badges/b9c37026-9df0-4257-920d-aba226f1f6b0?source=linked_in_profile
 
 ![(AWS Solutions Architect Professional)](https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/AWS%20Certified%20Solutions%20Architect%20-%20Professional%20certificate.jpg)
 
