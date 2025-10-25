@@ -4,14 +4,13 @@
 🌍 *LinkedIn:* https://www.linkedin.com/in/mayank-sekhar/
 
 ## **PROFILE SUMMARY**
-Information Security and Cloud Consultant with **12+ years of international experience** (career started in **May 2013**) delivering secure digital transformation, cloud governance, and regulatory compliance programs for European and global organisations. I have worked in **full-time roles with IBM, Oracle, and OpenText**, building a strong foundation in cloud infrastructure, automation, and enterprise security.
+Information Security and Cloud Consultant with **12+ years of international experience** delivering secure digital transformation, cloud governance, and regulatory compliance programs for European and global organisations. I have worked in **full-time roles with IBM, Oracle, and OpenText**, building a strong foundation in cloud infrastructure, automation, and enterprise security.
 
-In addition to my full-time roles, I have delivered **high-impact consulting engagements in collaboration with Red Hat and Microsoft**, enabling enterprises to **secure multi-cloud environments, establish strong governance, and achieve cross-regional regulatory compliance**. I specialise in guiding organisations through **complex security transformations**—from **zero-trust architecture and secure CI/CD pipelines** to **multi-geo compliance programs aligned with ISO 27001, GDPR, NIS2, DORA, NIST, and EU CRA**. By combining **executive-level advisory with deep technical delivery**, I enable both **C-suite leaders** and **engineering teams** to drive secure innovation with confidence.
+In addition to my full-time roles, I have delivered project consulting engagements in collaboration with Red Hat and Microsoft**, enabling enterprises to secure multi-cloud environments, establish strong governance, and achieve cross-regional regulatory compliance**. I specialise in guiding organisations through complex security transformations**—from zero-trust architecture and secure CI/CD pipelines to **multi-geo compliance programs aligned with ISO 27001, GDPR, CIS 18 Benchmark and NIST CSF.
 
-I help organisations embed **governance, security automation, and resilience** into their cloud environments, ensuring **risk reduction, audit readiness, and faster delivery without operational friction**.
+I help organisations embed governance, security automation, and resilience** into their cloud environments, ensuring risk reduction, audit readiness, and faster delivery without operational friction.
 
-
-Today, I specialise in helping organisations achieve **ISO 27001, GDPR, NIS2, DORA, and cloud security readiness**, while embedding governance and security automation across AWS environments. My approach focuses on **simplifying compliance, reducing risk, and enabling innovation—without slowing delivery or product growth.**
+Today, I specialise in helping organisations achieve **ISO 27001, GDPR, NIS2, DORA, and cloud security readiness**, while embedding governance and security automation across AWS environments, Multi Cloud Environments and occationally on Azure. My approach focuses on **simplifying compliance, reducing risk, and enabling innovation—without slowing delivery or product growth.**
 
 
 Certificates - 
