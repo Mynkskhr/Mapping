@@ -1,10 +1,10 @@
-# 🇪🇺 Thinkwerke Project Blueprint  
+# Thinkwerke Project Blueprint  
 ## Unified Compliance Implementation Plan for Diehl Metering / Preventio  
 ### NIS2 Directive · EU AI Act · Cyber Resilience Act · ISO 27001 Alignment  
 
 ---
 
-## 🧩 1. Regulatory Timelines & ENISA Guidance Overview  
+## 1. Regulatory Timelines & ENISA Guidance Overview  
 
 | **Regulation** | **Effective / Transition Dates** | **Compliance Milestones** | **ENISA Reference** |
 |----------------|----------------------------------|-----------------------------|----------------------|
@@ -15,7 +15,7 @@
 
 ---
 
-## 🧭 2. Thinkwerke CIR³ Framework  
+## 2. Thinkwerke CIR³ Framework  
 ### *Continuous Intelligence · Integration · Resilience*
 
 | **Phase** | **Objective** | **Core Activities** | **Deliverables** |
@@ -26,7 +26,7 @@
 
 ---
 
-## ⚙️ 3. Technical Implementation Guidance (Databricks on Azure)
+## 3. Technical Implementation Guidance (Databricks on Azure)
 
 | **Control Area** | **Azure / Databricks Implementation** | **ENISA / NIS2 Reference** | **Evidence / Deliverable** |
 |------------------|----------------------------------------|-----------------------------|-----------------------------|
@@ -41,7 +41,7 @@
 
 ---
 
-## 🧠 4. Compliance Maturity Chain  
+## 4. Compliance Maturity Chain  
 ### From NIS2 → AI Act → CRA → ISO 27001 → Customer Trust
 
 | **Stage** | **Focus Area** | **Dependency / Outcome** |
@@ -57,7 +57,7 @@
 
 ---
 
-## 📊 5. ENISA Compliance Mind Map — Utilities / Critical Infrastructure
+## 5. ENISA Compliance Mind Map — Utilities / Critical Infrastructure
 
 | **Domain** | **ENISA Control Category** | **Focus Area / Objective** | **Utility-Specific Implementation (Azure / Databricks)** | **Linked Regulation / Article** |
 |-------------|----------------------------|-----------------------------|-----------------------------------------------------------|----------------------------------|
@@ -73,7 +73,7 @@
 
 ---
 
-## 🤖 6. AI Act Compliance Checklist (Databricks on Azure – Water Leak Detection)
+## 6. AI Act Compliance Checklist (Databricks on Azure – Water Leak Detection)
 
 | **AI Act Requirement** | **Implementation on Databricks (Azure)** | **Evidence / Deliverables** | **Linked Articles / Annexes** |
 |-------------------------|-------------------------------------------|------------------------------|-------------------------------|
@@ -90,7 +90,7 @@
 
 ---
 
-## 📈 7. Deliverables Summary
+## 7. Deliverables Summary
 
 | **Deliverable** | **Purpose / Outcome** |
 |-----------------|------------------------|
@@ -103,7 +103,7 @@
 
 ---
 
-## 💬 8. Closing Message
+## 8. Closing Message
 > Through this plan, **Thinkwerke** enables **Diehl Metering / Preventio** to move beyond compliance into sustainable governance.  
 >  
 > With the **CIR³ Framework**, all EU regulations — **NIS2**, **AI Act**, and **CRA** — align with **ISO 27001**, creating a secure, explainable, and resilient foundation for AI-powered utilities operations.
