@@ -1,6 +1,8 @@
 Certificates - 
 
-![Image Alt]([image_url](https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/AWS%20Certified%20Solutions%20Architect%20-%20Professional%20certificate.jpg))
+![Image Alt](https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/AWS%20Certified%20Solutions%20Architect%20-%20Professional%20certificate.jpg))
+
+![Image Alt]([image_url]())
 
 
 ![Image Alt]([image_url](https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/CISM-certification.jpg))
