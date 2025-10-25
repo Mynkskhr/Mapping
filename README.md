@@ -8,7 +8,7 @@ I am a hands-on AWS Solutions Architect, Cloud Security Architect, and Informati
 
 I understand how to build and protect systems at the infrastructure level, but more importantly, I know how to translate technical outcomes into strategic business value. Whether working with C-level leadership or engineering squads, I focus on closing gaps across people, process, and technology so organisations can scale securely, pass audits confidently, and deliver products faster without compromising risk posture.
 
-If your organisation needs someone who can design secure architectures, implement controls, influence culture, and deliver measurable outcomes, I bring the capability to operate at both hands-on technical depth and board-level strategic height and align all stakeholders toward common, security-driven business results.
+If your organisation needs someone who can design secure architectures, implement controls, give you direct reality of product and technical infrastructure, and deliver measurable outcomes, I bring this capability to operate at both hands-on technical depth and board-level strategic height and align all stakeholders toward common, security-driven business results.
 
 ## **PROFILE SUMMARY**
 Information Security and Cloud Consultant with **12+ years of international experience** delivering secure digital transformation, cloud governance, and regulatory compliance programs for European and global organisations. I have worked in **full-time roles with IBM, Oracle, and OpenText**, building a strong foundation in cloud infrastructure, automation, and enterprise security.
