@@ -7,7 +7,7 @@ LinkedIn: linkedin.com/in/mayank-sekhar
 
 Certificates - 
 
-![AWS SOlutions Architect Professional](https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/AWS%20Certified%20Solutions%20Architect%20-%20Professional%20certificate.jpg)
+!(AWS SOlutions Architect Professional)(https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/AWS%20Certified%20Solutions%20Architect%20-%20Professional%20certificate.jpg)
 
 ![CISM by ISACA](https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/CISM-certification.jpg)
 
