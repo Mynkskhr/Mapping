@@ -1,13 +1,11 @@
-MAYANK SEKHAR
-
-Information Security & Cloud Consultant
-📧 Mayankshekharsingh@gmail.com
- | 📱 +94 74 330 1711
-LinkedIn: linkedin.com/in/mayank-sekhar
+# **MAYANK SEKHAR**
+**Information Security & Cloud Consultant**  
+📧 *Mayankshekharsingh@gmail.com* | 📱 *+94 74 330 1711*  
+🌍 *LinkedIn:* https://www.linkedin.com/in/mayank-sekhar/
 
 Certificates - 
 
-![(AWS Solutions Architect Professional)](https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/AWS%20Certified%20Solutions%20Architect%20-%20Professional%20certificate.jpg "Title")
+![(AWS Solutions Architect Professional)](https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/AWS%20Certified%20Solutions%20Architect%20-%20Professional%20certificate.jpg)
 
 ![CISM by ISACA](https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/CISM-certification.jpg)
 
