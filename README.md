@@ -109,9 +109,11 @@ also, I have a Framework of my own in development, Link - https://github.com/Myn
 
 ---
 ## **CALL TO ACTION**
-If your organisation is planning to achieve **ISO 27001 certification, NIS2/DORA readiness, or secure multi-cloud transformation**, I can help.  
+If your organisation is planning to achieve **ISO 27001 certification, NIS2/DORA readiness, or secure multi-cloud transformation**, I can help you deliver these goals with confidence and measurable results.
 
-Whether you need a **trusted advisor for leadership** or **hands-on delivery for compliance and architecture**, let’s discuss how to align your goals with measurable, secure outcomes.
+Whether you need a **CISM-certified Information Security Manager** to strengthen governance and risk management, or an **AWS Solutions Architect Professional** to secure and optimise your cloud environments, I provide both **executive advisory** and **hands-on technical delivery**. 
+
+If you're looking to **build a compliant security program, secure your AWS workloads, or accelerate DevSecOps and GRC maturity**, let’s discuss how I can align your roadmap to **business outcomes, audit readiness, and long-term resilience**.
 
 ---
 
