@@ -19,6 +19,25 @@ Today, I specialise in helping organisations achieve **ISO 27001, GDPR, NIS2, DO
 - **Cloud & DevSecOps:** AWS Security, Secure CI/CD, IaC, Observability, Zero-Trust Controls, Cloud Baselines  
 - **Advisory & Leadership:** C-level Consulting, Security Roadmaps, Policy Engineering, Security Awareness & Enablement  
 
+## **Core Consulting Offers**
+
+- **ISO 27001 Program (8–16 weeks)**  
+  From gap assessment to full audit-ready implementation Project, including risk treatment, SoA, internal audit, and evidence management.
+
+- **GDPR + NIS2 Compliance Program**  
+  End-to-end governance, CSIRT design, control implementation, documentation, and cross-regional compliance evidence.
+
+- **Cloud Security Foundation for AWS**  
+  Secure landing zone, IAM hardening, monitoring, logging, encryption, and zero-trust guardrails to protect multi-account environments.
+
+- **DevSecOps Enablement**  
+  Hardened CI/CD pipelines, Product Owner requirement based POC, SAST/DAST enforced security gates, and automated compliance controls without slowing engineering velocity.
+
+- **Security Governance & Operating Model (GRC)**  
+  Policies, KPIs, risk registers, board-level reporting, playbooks, and operating models that drive accountability and continuous improvement.
+
+> These structured service offerings position me as a **solution provider, not a freelancer**, enabling organisations to achieve predictable outcomes, faster compliance, and long-term security maturity.
+
 ---
 **Independent Consulting — Remote**  
 
@@ -34,8 +53,10 @@ Today, I specialise in helping organisations achieve **ISO 27001, GDPR, NIS2, DO
 - **AWS Certified Solutions Architect – Professional** 2025
 - **CISM**, ISACA 2025 
 - **ISO 27001:2022 Lead Implementer**, TÜV SÜD 2025
-- **AWS Certified Security – Specialty**  
-- **NIS2, and DORA Professional 2025 (EU Compliance)**  
+- **NIS2, and DORA Professional 2025 (EU Compliance)**
+- **CompTIA SecurityX**, (Should be Completed in November 2025) (Gold Level Security Architect Certification)
+- **AWS Certified Security – Specialty**  (Validity Expired but SKills did not) (Link - https://www.credly.com/badges/b9c37026-9df0-4257-920d-aba226f1f6b0?source=linked_in_profile)
+  - 
 
 ![(AWS Solutions Architect Professional)](https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/AWS%20Certified%20Solutions%20Architect%20-%20Professional%20certificate.jpg)
 
