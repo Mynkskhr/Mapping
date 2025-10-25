@@ -43,8 +43,13 @@ Today, I specialise in helping organisations achieve **ISO 27001, GDPR, NIS2, DO
 - **Security Governance & Operating Model (GRC)**  
   Policies, KPIs, risk registers, board-level reporting, playbooks, and operating models that drive accountability and continuous improvement.
 
-> These structured service offerings position me as a **solution provider, not a freelancer**, enabling organisations to achieve predictable outcomes, faster compliance, and long-term security maturity.
+> **End-to-end execution** — Architecture → Governance → Controls → Evidence → Audit → Handover
 
+## **Impact You Can Expect**
+- Faster compliance (ISO, GDPR, NIS2, DORA) with **automation and evidence-first delivery**
+- Stronger security posture through **zero-trust, DevSecOps, and cloud guardrails**
+- Higher product velocity — **security that enables, not blocks**
+- Board-ready visibility through **clear KPIs, dashboards, and reporting**
 ---
 **Independent Consulting — Remote**  
 
