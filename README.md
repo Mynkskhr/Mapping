@@ -6,32 +6,33 @@
 ---
 
 ## **Who I Am**
-I am a hands-on **AWS Solutions Architect, Cloud Security Architect, and Information Security Manager** who has evolved into a **strategic consultant and executive advisor**. With deep engineering experience and a strong GRC foundation, I bridge the gap between **business objectives and technical execution**, ensuring security is not just compliant but also an **accelerator for product growth, customer trust, and market expansion**.
+I am a hands-on **AWS Solutions Architect, Cloud Security Architect, and Information Security Manager** who has evolved into a strategic consultant and executive advisor. With deep engineering experience and a strong GRC foundation, I bridge the gap between **business objectives and technical execution**, ensuring security is not just compliant but also an **accelerator for product growth, customer trust, and market expansion**.
 
-I understand how to build and protect systems at the infrastructure level, but more importantly, I know how to **translate technical outcomes into business value**. Whether working with C-level leadership or engineering teams, I focus on **closing gaps across people, process, and technology** so organisations can scale securely, pass audits confidently, and deliver products faster without compromising risk posture.
+I understand how to build and protect systems at the infrastructure level, but more importantly, I know how to **translate technical outcomes into business value**. Whether working with C-level leadership or engineering teams, I focus on closing gaps across people, process, and technology so organisations can scale securely, pass audits confidently, and deliver products faster without compromising risk posture.
 
-If your organisation needs someone who can **design secure architectures, implement controls, assess infrastructure realities, and deliver measurable outcomes**, I bring the ability to operate at both **hands-on technical depth** and **board-level strategic height**—aligning all stakeholders toward secure, growth-oriented results.
+If your organisation needs someone who can design secure architectures, implement controls, assess infrastructure realities, and deliver measurable outcomes, I bring the ability to operate at both **hands-on technical depth** and **board-level strategic height**—aligning all stakeholders toward secure, growth-oriented results and give correct reports to stakeholders about the blockers, which can be Cultural, Knowledge or Human factor.
 
 ---
 
 ## **PROFILE SUMMARY**
-Information Security and Cloud Consultant with **12+ years of international experience** delivering **secure digital transformation, cloud governance, and regulatory compliance programs** for European and global organisations.  
+Information Security and Cloud Consultant with **12+ years of Global experience** delivering **secure digital transformation, cloud governance, and regulatory compliance programs** for European and global organisations.  
 
-I have held **full-time roles with IBM, Oracle, and OpenText**, building a solid foundation in cloud infrastructure, automation, and enterprise security.  
+I have held **full-time roles with IBM, Oracle, and OpenText**, building a solid foundation in cloud infrastructure, DevOps, and Information security.
+
 Additionally, I have delivered **project consulting engagements with Red Hat and Microsoft**, enabling enterprises to **secure multi-cloud environments, establish strong governance, and achieve cross-regional regulatory compliance**.
 
 I specialise in guiding organisations through complex **security transformations**—from **zero-trust architecture and secure CI/CD pipelines** to **multi-geo compliance programs** aligned with **ISO 27001, GDPR, CIS Benchmarks, and NIST CSF**.  
 
-My work integrates **governance, automation, and resilience** into cloud environments, ensuring **risk reduction, audit readiness, and faster delivery without operational friction**.  
+My work integrates **governance, automation, and resilience** into cloud environments, ensuring risk reduction, audit readiness, and faster delivery without operational friction.  
 
 ---
 
 ## **EXECUTIVE VALUE I DELIVER**
 - Align cybersecurity with **business strategy, revenue protection, and product velocity**  
 - Deliver **secure-by-design cloud architectures** with measurable guardrails  
-- Achieve **audit-ready compliance** for ISO 27001, GDPR, NIS2, DORA, and other EU directives  
-- Establish **governance, KPIs, and dashboards** for board-level risk visibility  
-- Close organisational gaps between **leadership, architecture, and DevOps**  
+- Achieve **audit-ready compliance** for ISO 27001, GDPR, NIS2, DORA, EU AI ACT and Cyber Resillence Act  
+- Establish governance, KPIs, and dashboards for board-level risk visibility  
+- Close organisational gaps between leadership, architecture, and DevOps 
 - Turn cybersecurity into a **competitive advantage**, not a cost center  
 
 ---
@@ -42,7 +43,7 @@ My work integrates **governance, automation, and resilience** into cloud environ
 - Delivered **zero nonconformities** in multi-region audit programs  
 - Improved **DevOps delivery by 30%** through secure CI/CD enablement  
 - Enabled **cross-region DORA and NIS2 readiness** for healthcare and fintech clients  
-- Supported **enterprises in Aviation, Utilities, Fintech, SaaS, and Healthcare** sectors across **EU and APAC**
+- Supported **enterprises in Aviation, Utilities, Fintech, SaaS, and Healthcare** sectors across **EU and North America**
 
 ---
 
@@ -53,6 +54,8 @@ My work integrates **governance, automation, and resilience** into cloud environ
 2. **Harden:** Architecture, IAM, and DevSecOps pipeline controls; zero-trust enforcement.  
 3. **Automate:** Evidence generation, monitoring, and continuous compliance.  
 4. **Assure:** Internal audit preparation, table-top tests, and regulator-ready documentation.
+
+also, I have a Framework of my own in development, Link - https://github.com/Mynkskhr/Thinkwerke/blob/923e7f92601346c8d8e3f781b2d5b148eeb4f44e/CIR%C2%B3%20Framework.md
 
 ---
 
@@ -97,12 +100,12 @@ My work integrates **governance, automation, and resilience** into cloud environ
 
 **Independent Consulting – Remote**  
 *Cloud & DevSecOps Consultant | July 2022 – December 2022*  
-- Delivered multi-cloud governance, secure CI/CD, and regulatory alignment for European SMEs.
+- Delivered AWS cloud governance, secure CI/CD, and regulatory alignment for for Decentralised operations Java based product company.
 
 **AWS Solution & InfoSec Consultancy**  
 *DORA Program (Healthcare via Software Services Partner) | March 2025 – August 2025*  
 - Delivered DORA readiness roadmap, established control ownership, and defined compliance metrics.  
-- Secured endorsement for **DORA Implementation and Governance consultancy** based on successful pilot delivery.
+- Secured endorsement for **DORA Implementation and Governance consultancy** based on successful pilot delivery by Vice-President of CGI.
 
 ---
 ## **CALL TO ACTION**
