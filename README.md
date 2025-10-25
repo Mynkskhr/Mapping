@@ -1,72 +1,123 @@
 # **MAYANK SEKHAR**
 **Information Security & Cloud Consultant**  
 📧 *Mayankshekharsingh@gmail.com* | 📱 *+94 74 330 1711*  
-🌍 *LinkedIn:* https://www.linkedin.com/in/mayank-sekhar/
+🌍 *LinkedIn:* [linkedin.com/in/mayank-sekhar](https://www.linkedin.com/in/mayank-sekhar/)
+
+---
 
 ## **Who I Am**
-I am a hands-on AWS Solutions Architect, Cloud Security Architect, and Information Security Manager who has evolved into a strategic consultant and executive advisor. With deep engineering experience and a strong GRC foundation, I bridge the gap between business objectives and technical execution ensuring security is not just compliant, but also an accelerator for product growth, customer trust, and market expansion.
+I am a hands-on **AWS Solutions Architect, Cloud Security Architect, and Information Security Manager** who has evolved into a **strategic consultant and executive advisor**. With deep engineering experience and a strong GRC foundation, I bridge the gap between **business objectives and technical execution**, ensuring security is not just compliant but also an **accelerator for product growth, customer trust, and market expansion**.
 
-I understand how to build and protect systems at the infrastructure level, but more importantly, I know how to translate technical outcomes into strategic business value. Whether working with C-level leadership or engineering squads, I focus on closing gaps across people, process, and technology so organisations can scale securely, pass audits confidently, and deliver products faster without compromising risk posture.
+I understand how to build and protect systems at the infrastructure level, but more importantly, I know how to **translate technical outcomes into business value**. Whether working with C-level leadership or engineering teams, I focus on **closing gaps across people, process, and technology** so organisations can scale securely, pass audits confidently, and deliver products faster without compromising risk posture.
 
-If your organisation needs someone who can design secure architectures, implement controls, give you direct reality of product and technical infrastructure, and deliver measurable outcomes, I bring this capability to operate at both hands-on technical depth and board-level strategic height and align all stakeholders toward common, security-driven business results.
+If your organisation needs someone who can **design secure architectures, implement controls, assess infrastructure realities, and deliver measurable outcomes**, I bring the ability to operate at both **hands-on technical depth** and **board-level strategic height**—aligning all stakeholders toward secure, growth-oriented results.
+
+---
 
 ## **PROFILE SUMMARY**
-Information Security and Cloud Consultant with **12+ years of international experience** delivering secure digital transformation, cloud governance, and regulatory compliance programs for European and global organisations. I have worked in **full-time roles with IBM, Oracle, and OpenText**, building a strong foundation in cloud infrastructure, automation, and enterprise security.
+Information Security and Cloud Consultant with **12+ years of international experience** delivering **secure digital transformation, cloud governance, and regulatory compliance programs** for European and global organisations.  
 
-In addition to my full-time roles, I have delivered project consulting engagements in collaboration with Red Hat and Microsoft, enabling enterprises to secure multi-cloud environments, establish strong governance, and achieve cross-regional regulatory compliance. I specialise in guiding organisations through complex security transformations from zero-trust architecture and secure CI/CD pipelines to multi-geo compliance programs aligned with ISO 27001, GDPR, CIS 18 Benchmark and NIST CSF.
+I have held **full-time roles with IBM, Oracle, and OpenText**, building a solid foundation in cloud infrastructure, automation, and enterprise security.  
+Additionally, I have delivered **project consulting engagements with Red Hat and Microsoft**, enabling enterprises to **secure multi-cloud environments, establish strong governance, and achieve cross-regional regulatory compliance**.
 
-I help organisations embed governance, security automation, and resilience into their cloud environments, ensuring risk reduction, audit readiness, and faster delivery without operational friction.
+I specialise in guiding organisations through complex **security transformations**—from **zero-trust architecture and secure CI/CD pipelines** to **multi-geo compliance programs** aligned with **ISO 27001, GDPR, CIS Benchmarks, and NIST CSF**.  
 
-Today, I specialise in helping organisations achieve **ISO 27001, GDPR, NIS2, DORA, and cloud security readiness**, while embedding governance and security automation across AWS environments, Multi Cloud Environments and occationally on Azure. My approach focuses on **simplifying compliance, reducing risk, and enabling innovation—without slowing delivery or product growth.**
+My work integrates **governance, automation, and resilience** into cloud environments, ensuring **risk reduction, audit readiness, and faster delivery without operational friction**.  
+
+---
+
+## **EXECUTIVE VALUE I DELIVER**
+- Align cybersecurity with **business strategy, revenue protection, and product velocity**  
+- Deliver **secure-by-design cloud architectures** with measurable guardrails  
+- Achieve **audit-ready compliance** for ISO 27001, GDPR, NIS2, DORA, and other EU directives  
+- Establish **governance, KPIs, and dashboards** for board-level risk visibility  
+- Close organisational gaps between **leadership, architecture, and DevOps**  
+- Turn cybersecurity into a **competitive advantage**, not a cost center  
+
+---
+
+## **BUSINESS IMPACT & TRUST SIGNALS**
+- Reduced **audit findings by 80%** and achieved first-time ISO 27001 certification in record time  
+- Shortened compliance readiness from **9 months to 12–16 weeks** through automation  
+- Delivered **zero nonconformities** in multi-region audit programs  
+- Improved **DevOps delivery by 30%** through secure CI/CD enablement  
+- Enabled **cross-region DORA and NIS2 readiness** for healthcare and fintech clients  
+- Supported **enterprises in Aviation, Utilities, Fintech, SaaS, and Healthcare** sectors across **EU and APAC**
+
+---
+
+## **METHODOLOGY — MY ENGAGEMENT FRAMEWORK**
+**Assess → Harden → Automate → Assure**
+
+1. **Assess:** Risk analysis, maturity assessment, scope definition, and stakeholder mapping.  
+2. **Harden:** Architecture, IAM, and DevSecOps pipeline controls; zero-trust enforcement.  
+3. **Automate:** Evidence generation, monitoring, and continuous compliance.  
+4. **Assure:** Internal audit preparation, table-top tests, and regulator-ready documentation.
 
 ---
 
 ## **CORE EXPERTISE**
 - **Governance, Risk & Compliance:** ISO 27001, GDPR, NIS2, DORA, Risk Assessments, BCP/DRP, CSIRT, Audit Readiness  
-- **Cloud & DevSecOps:** AWS Solution & Security, Secure CI/CD, IaC Project, Observability Plan, Zero-Trust Controls, Cloud Baselines  
-- **Advisory & Leadership:** C-level Consulting, Product Owner/Manager Technical Support, Technical Project Delivery, Security Roadmaps, Policy Engineering, Security Awareness & Enablement  
+- **Cloud & DevSecOps:** AWS Solutions & Security, Secure CI/CD, IaC Projects, Observability Plans, Zero-Trust Controls, Cloud Baselines  
+- **Advisory & Leadership:** C-level Consulting, Product Ownership Support, Technical Project Delivery, Security Roadmaps, Policy Engineering, Awareness & Enablement  
 
-## **Core Consulting Offers**
+---
+
+## **CORE CONSULTING OFFERS**
 
 - **ISO 27001 Program (8–16 weeks)**  
-  From gap assessment to full audit-ready implementation Project, including risk treatment, SoA, internal audit, and evidence management.
+  From gap assessment to audit readiness—risk treatment, SoA, internal audit, and evidence management.
 
 - **GDPR + NIS2 Compliance Program**  
-  End-to-end governance, CSIRT design, control implementation, documentation, and cross-regional compliance evidence.
+  End-to-end governance, CSIRT setup, control documentation, and cross-regional compliance alignment.
 
 - **Cloud Security Foundation for AWS**  
-  Secure landing zone, IAM hardening, monitoring, logging, encryption, and zero-trust guardrails to protect multi-account environments.
+  Landing zone design, IAM hardening, logging, encryption, and zero-trust guardrails.
 
 - **DevSecOps Enablement**  
-  Hardened CI/CD pipelines, Product Owner requirement based POC, SAST/DAST enforced security gates, and automated compliance controls without slowing engineering velocity.
+  Hardened CI/CD pipelines, POC-based delivery, SAST/DAST automation, and evidence-first compliance.
 
 - **Security Governance & Operating Model (GRC)**  
-  Policies, KPIs, risk registers, board-level reporting, playbooks, and operating models that drive accountability and continuous improvement.
+  Policies, KPIs, risk registers, and board-level dashboards to ensure governance maturity.
 
-> **End-to-end execution** — Architecture → Governance → Controls → Evidence → Audit → Handover
+> **End-to-end execution:** Architecture → Governance → Controls → Evidence → Audit → Handover  
 
-## **Impact You Can Expect**
-- Faster compliance (ISO, GDPR, NIS2, DORA) with **automation and evidence-first delivery**
-- Stronger security posture through **zero-trust, DevSecOps, and cloud guardrails**
-- Higher product velocity — **security that enables, not blocks**
-- Board-ready visibility through **clear KPIs, dashboards, and reporting**
 ---
-**Independent Consulting — Remote**  
 
+## **BOARD-LEVEL METRICS I ESTABLISH**
+- **Audit performance:** Time-to-close, evidence maturity, risk coverage  
+- **Operational resilience:** MTTD/MTTR, recovery validation, incident SLAs  
+- **Compliance coverage:** % of systems under control mapping  
+- **Identity security maturity:** Privilege reduction, SSO, Just-in-Time admin metrics  
+- **Cloud program KPIs:** Pipeline pass rates, drift detection, change audit trails  
+
+---
+
+## **RECENT CONSULTING ENGAGEMENTS**
+
+**Independent Consulting – Remote**  
 *Cloud & DevSecOps Consultant | July 2022 – December 2022*  
-- Delivered **multi-cloud governance, secure CI/CD, and regulatory alignment** for European SMEs and digital enterprises.
+- Delivered multi-cloud governance, secure CI/CD, and regulatory alignment for European SMEs.
 
-*AWS Solution and InfoSec Consultancy | March 2025 - August 2025*
-- Consulted Healthcare Compnay via a Software Services Company to deliver DORA compliance project for their readiness preparation and also secured endorsement for DORA consultancy Implementation and governance skills.
+**AWS Solution & InfoSec Consultancy**  
+*DORA Program (Healthcare via Software Services Partner) | March 2025 – August 2025*  
+- Delivered DORA readiness roadmap, established control ownership, and defined compliance metrics.  
+- Secured endorsement for **DORA Implementation and Governance consultancy** based on successful pilot delivery.
 
 ---
- 
+## **CALL TO ACTION**
+If your organisation is planning to achieve **ISO 27001 certification, NIS2/DORA readiness, or secure multi-cloud transformation**, I can help.  
+
+Whether you need a **trusted advisor for leadership** or **hands-on delivery for compliance and architecture**, let’s discuss how to align your goals with measurable, secure outcomes.
+
+---
+
 ## **CERTIFICATIONS**
-- **AWS Certified Solutions Architect – Professional** 2025
-- **CISM**, ISACA 2025 
-- **ISO 27001:2022 Lead Implementer**, TÜV SÜD 2025
-- **NIS2, and DORA Professional 2025 (EU Compliance)**
-- **CompTIA SecurityX**, (Should be Completed in November 2025) (Gold Level Security Architect Certification)
+- **AWS Certified Solutions Architect – Professional (2025)**  
+- **CISM**, ISACA (2025)  
+- **ISO 27001:2022 Lead Implementer**, TÜV SÜD (2025)  
+- **NIS2 & DORA Professional (EU Compliance, 2025)**  
+- **CompTIA SecurityX (Gold Level Security Architect – expected Nov 2025)** 
 - **AWS Certified Security – Specialty** Validity Expired but Skills did not - Link - https://www.credly.com/badges/b9c37026-9df0-4257-920d-aba226f1f6b0?source=linked_in_profile
 
 ![(AWS Solutions Architect Professional)](https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/AWS%20Certified%20Solutions%20Architect%20-%20Professional%20certificate.jpg)
