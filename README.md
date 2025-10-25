@@ -12,8 +12,30 @@ I help organisations embed governance, security automation, and resilience** int
 
 Today, I specialise in helping organisations achieve **ISO 27001, GDPR, NIS2, DORA, and cloud security readiness**, while embedding governance and security automation across AWS environments, Multi Cloud Environments and occationally on Azure. My approach focuses on **simplifying compliance, reducing risk, and enabling innovation—without slowing delivery or product growth.**
 
+---
 
-Certificates - 
+## **CORE EXPERTISE**
+- **Governance, Risk & Compliance:** ISO 27001, GDPR, NIS2, DORA, Risk Assessments, BCP/DRP, CSIRT, Audit Readiness  
+- **Cloud & DevSecOps:** AWS Security, Secure CI/CD, IaC, Observability, Zero-Trust Controls, Cloud Baselines  
+- **Advisory & Leadership:** C-level Consulting, Security Roadmaps, Policy Engineering, Security Awareness & Enablement  
+
+---
+**Independent Consulting — Remote**  
+
+*Cloud & DevSecOps Consultant | July 2022 – December 2022*  
+- Delivered **multi-cloud governance, secure CI/CD, and regulatory alignment** for European SMEs and digital enterprises.
+
+*AWS Solution and InfoSec Consultancy | March 2025 - August 2025*
+- Consulted Healthcare Compnay via a Software Services Company to deliver DORA compliance project for their readiness preparation and also secured endorsement for DORA consultancy Implementation and governance skills.
+
+---
+ 
+## **CERTIFICATIONS**
+- **AWS Certified Solutions Architect – Professional** 2025
+- **CISM**, ISACA 2025 
+- **ISO 27001:2022 Lead Implementer**, TÜV SÜD 2025
+- **AWS Certified Security – Specialty**  
+- **NIS2, and DORA Professional 2025 (EU Compliance)**  
 
 ![(AWS Solutions Architect Professional)](https://github.com/Mynkskhr/Thinkwerke/blob/8495d2408c2fb5b0ff93c59284348957a6bc2424/AWS%20Certified%20Solutions%20Architect%20-%20Professional%20certificate.jpg)
 
