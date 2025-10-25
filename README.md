@@ -16,8 +16,8 @@ Today, I specialise in helping organisations achieve **ISO 27001, GDPR, NIS2, DO
 
 ## **CORE EXPERTISE**
 - **Governance, Risk & Compliance:** ISO 27001, GDPR, NIS2, DORA, Risk Assessments, BCP/DRP, CSIRT, Audit Readiness  
-- **Cloud & DevSecOps:** AWS Security, Secure CI/CD, IaC, Observability, Zero-Trust Controls, Cloud Baselines  
-- **Advisory & Leadership:** C-level Consulting, Security Roadmaps, Policy Engineering, Security Awareness & Enablement  
+- **Cloud & DevSecOps:** AWS Solution & Security, Secure CI/CD, IaC Project, Observability Plan, Zero-Trust Controls, Cloud Baselines  
+- **Advisory & Leadership:** C-level Consulting, Product Owner/Manager Technical Support, Technical Project Delivery, Security Roadmaps, Policy Engineering, Security Awareness & Enablement  
 
 ## **Core Consulting Offers**
 
