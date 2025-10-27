@@ -103,13 +103,6 @@
 
 ---
 
-## 8. Closing Message
-> Through this plan, **Thinkwerke** enables **Diehl Metering / Preventio** to move beyond compliance into sustainable governance.  
->  
-> With the **CIR³ Framework**, all EU regulations — **NIS2**, **AI Act**, and **CRA** — align with **ISO 27001**, creating a secure, explainable, and resilient foundation for AI-powered utilities operations.
-
----
-
 **Prepared by:** Thinkwerke – Strategy Meets Security  
 **Lead Consultant:** Mayank Sekhar, CISM · ISO 27001 LI · AWS SA Pro · CompTIA SecurityX Architect · NIS2 Directive and DORA Trained Professional 
 **Date:** October 2025  
