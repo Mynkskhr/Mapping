@@ -1,5 +1,5 @@
 # Thinkwerke Project Blueprint  
-## Unified Compliance Implementation Plan for Diehl Metering / Preventio  
+## Unified Compliance Implementation Plan 
 ### NIS2 Directive · EU AI Act · Cyber Resilience Act · ISO 27001 Alignment  
 
 ---
