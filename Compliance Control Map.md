@@ -74,6 +74,20 @@
 | **EU Cyber Resilience Act (CRA)** | - Political agreement reached: **March 2024**  <br> - Publication in Official Journal expected: **Q4 2024**  <br> - Entry into force: **~Q1 2025 (20 days post-publication)**  <br> - Transition period: **36 months**  <br> - Compliance enforcement date: **Q1–Q2 2028** | **Target:** Q4 2027 – Early Readiness by Q1 2028 | ENISA Guidelines on Secure Product Development Lifecycle  <br> ENISA IoT Security Framework & CRA Mapping (2024)  <br> ENISA Vulnerability Management & Disclosure Guidelines (2023) |
 | **ISO/IEC 27001:2022 Alignment** | - Integration with NIS2 security measures (**Art. 21**)  <br> - Alignment with ENISA baseline measures  <br> - Implementation of continuous ISMS improvement loop | **Stage 1 Readiness:** 6 months from project start | ENISA ISMS Maturity Model for Operators of Essential Services  <br> ISO/IEC 27001:2022 Control Annex A crosswalks |
 
+
+### **ENISA Guidance Cross-Mapping**
+
+| **Regulation / Framework** | **Core ENISA References** | **Key Security Domains Addressed** | **Implementation Focus with Thinkwerke** |
+|-----------------------------|---------------------------|------------------------------------|------------------------------------------|
+| **NIS2 Directive (EU) 2022/2555** | - ENISA Baseline Security Measures (2023)  <br> - ENISA NIS2 Implementation Guide  <br> - ENISA Cybersecurity Risk Management Maturity Model (CRM³) | Governance, risk management, operational resilience, incident reporting, and supply-chain security | Establish board accountability, implement 49 baseline controls, and design incident response & supervision readiness models |
+| **EU AI Act (Regulation (EU) 2024/1689)** | - ENISA AI Security & Governance Framework (2024)  <br> - ENISA AI Threat Landscape (2023)  <br> - EU AI Office conformity templates (forthcoming) | AI risk management lifecycle, model transparency, robustness, cybersecurity, and human oversight (HITL) | Develop AI Technical File, implement AI control frameworks, and establish conformity & monitoring processes |
+| **EU Cyber Resilience Act (CRA)** | - ENISA Guidelines on Secure Product Development Lifecycle  <br> - ENISA IoT Security Framework & CRA Mapping (2024)  <br> - ENISA Vulnerability Management & Disclosure Guidelines (2023) | Product lifecycle security, vulnerability disclosure, software bill of materials (SBOM), and CE technical documentation | Support secure-by-design engineering, vulnerability handling, and SBOM-driven compliance workflows |
+| **ISO/IEC 27001:2022 Alignment** | - ENISA ISMS Maturity Model for Operators of Essential Services  <br> - ENISA Baseline Mapping to ISO Controls  <br> - ISO/IEC 27001:2022 Annex A Crosswalk | Information Security Management Systems (ISMS), continuous improvement, and governance alignment | Integrate ISMS maturity with NIS2 compliance, policy engineering, and control-based audit readiness |
+
+The following cross-mapping outlines how **Thinkwerke** integrates **ENISA guidance** across multiple EU regulatory frameworks.  
+This ensures consistent governance, measurable risk reduction, and unified compliance delivery across NIS2, AI Act, CRA, and ISO 27001 programs.
+
+
 ---
 # ENISA Compliance Mind Map — Utilities / Critical Infrastructure  
 *Based on ENISA Baseline Security Measures (2023) & Cybersecurity Maturity Model (2024)*  
