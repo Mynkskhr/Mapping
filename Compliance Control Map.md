@@ -49,6 +49,14 @@
 
 ---
 
+| **Regulation**      | **Key Dates**        | **What You Must Achieve**                                                                                                       | **ENISA Guidance Used**                                                                                              |
+|----------------------|---------------------|----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| **NIS2 Directive**   | Enforcement Q1 2025 | Board-level accountability, risk management, supply-chain security, 24h/72h/1-month incident reporting.                          | ENISA Baseline Security Measures (core 49 controls), Incident Notification Guidelines.                               |
+| **EU AI Act**        | In Force Aug 2024   | AI risk management lifecycle, data quality & lineage, human oversight (HITL), transparency/model cards, robustness & cybersecurity, Technical File & conformity. | ENISA AI Security & Governance Framework, AI Threat Landscape for risks.                                             |
+| **EU CRA**           | Enforcement Q4 2027 | Secure-by-design product lifecycle, SBOM, vulnerability handling & disclosure, secure updates, CE technical documentation.       | ENISA IoT/Product Security Guidelines, Vulnerability Management & Disclosure Guidance.                               |
+| **ISO 27001**        | Continuous          | Secure-by-design ISMS, vulnerability management, disclosure, continuous improvement, audit readiness.                            | ENISA ISMS Maturity Model and ISO 27001 Mapping Guidelines.                                                          |
+
+
 ##  **Critical Insight: Unified Governance Builds Trust**
 > Achieving compliance with NIS2, EU AI Act, and CRA is not a checkbox exercise — it is a chain of interdependent maturity levels.  
 >  
