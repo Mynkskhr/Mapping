@@ -65,6 +65,15 @@
 > - Governance becomes proactive rather than reactive.  
 > - The organization gains **resilience, audit readiness, and lasting customer trust.**
 
+### **EU Regulatory Alignment Roadmap (Thinkwerke Advisory Framework)**
+
+| **Regulation** | **Key Phases & Milestones** | **Expected Completion with Thinkwerke** | **ENISA Reference / Guideline Alignment** |
+|----------------|-----------------------------|------------------------------------------|-------------------------------------------|
+| **NIS2D (Directive (EU) 2022/2555)** | - Directive entered into force: **Jan 16, 2023**  <br> - Member State transposition deadline: **Oct 17, 2024**  <br> - Entities (utilities, energy, water) compliance start: **Q1 2025**  <br> - Initial audits and supervision cycles: **2025–2026** | **Operational Readiness:** Q1 2026 | ENISA Baseline Security Measures for Essential and Important Entities (2023)  <br> ENISA NIS2 Implementation Guide  <br> ENISA Cybersecurity Risk Management Maturity Model (CRM³) |
+| **EU AI Act (Regulation (EU) 2024/1689)** | - Regulation in force: **Aug 1, 2024**  <br> - Prohibited AI uses ban: **Feb 2025**  <br> - Obligations for General-Purpose AI (GPAI): **Aug 2025**  <br> - High-risk AI systems (Annex III) compliance mandatory: **Aug 2026**  <br> - Conformity Assessments begin: **2026 onward** | **Full Compliance:** Q2 2026 | ENISA AI Threat Landscape 2023  <br> ENISA AI Security & Governance Framework (2024)  <br> EU AI Office forthcoming conformity templates |
+| **EU Cyber Resilience Act (CRA)** | - Political agreement reached: **March 2024**  <br> - Publication in Official Journal expected: **Q4 2024**  <br> - Entry into force: **~Q1 2025 (20 days post-publication)**  <br> - Transition period: **36 months**  <br> - Compliance enforcement date: **Q1–Q2 2028** | **Target:** Q4 2027 – Early Readiness by Q1 2028 | ENISA Guidelines on Secure Product Development Lifecycle  <br> ENISA IoT Security Framework & CRA Mapping (2024)  <br> ENISA Vulnerability Management & Disclosure Guidelines (2023) |
+| **ISO/IEC 27001:2022 Alignment** | - Integration with NIS2 security measures (**Art. 21**)  <br> - Alignment with ENISA baseline measures  <br> - Implementation of continuous ISMS improvement loop | **Stage 1 Readiness:** 6 months from project start | ENISA ISMS Maturity Model for Operators of Essential Services  <br> ISO/IEC 27001:2022 Control Annex A crosswalks |
+
 ---
 # ENISA Compliance Mind Map — Utilities / Critical Infrastructure  
 *Based on ENISA Baseline Security Measures (2023) & Cybersecurity Maturity Model (2024)*  
