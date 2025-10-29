@@ -13,7 +13,7 @@ In essence, SCADA bridges the gap between **operational technology (OT)** and **
 
 ---
 
-# 🕰️ A Brief History of SCADA
+# A Brief History of SCADA
 
 | **Era** | **Key Milestones** |
 |----------|--------------------|
