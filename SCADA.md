@@ -102,3 +102,10 @@ Preparing early ensures:
 > SCADA environments can meet **NIS2 obligations** efficiently by leveraging **ISO 27001’s structured ISMS framework**.  
 > Combining the **control discipline of ISO 27001** with the **legal force of NIS2** gives operators both **resilience** and **regulatory assurance** a dual path to **operational continuity and trust**.
 > Securing and modernizing SCADA environments is central to achieving **EU cybersecurity, sustainability, and industrial sovereignty goals**. as it is very important for EU industrial and Infrastructure landscapes.
+
+
+**Sources:**
+- [European Commission — Cyber Resilience Act Overview](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act?utm_source=chatgpt.com)  
+- [Strobes Security Blog — EU Cyber Resilience Act: What You Must Do](https://strobes.co/blog/eu-cyber-resilience-act-what-you-must-do/?utm_source=chatgpt.com)  
+- [European Cyber Resilience Act Portal](https://www.european-cyber-resilience-act.com/?utm_source=chatgpt.com)  
+- [TTMS — The Cyber Resilience Act in the Energy Sector](https://ttms.com/the-cyber-resilience-act-in-the-energy-sector-obligations-risks-and-how-to-prepare/?utm_source=chatgpt.com)
