@@ -105,8 +105,8 @@ Preparing early ensures:
 
 
 **Sources:**
-- https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act
-- https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R2847
-- https://www.european-cyber-resilience-act.com/
-- https://strobes.co/blog/eu-cyber-resilience-act-what-you-must-do/
-- https://ttms.com/the-cyber-resilience-act-in-the-energy-sector-obligations-risks-and-how-to-prepare/
+- [European Commission — Cyber Resilience Act Overview]  https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act
+- [Downloadable Document] https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R2847
+- [European Cyber Resilience Act Portal]  https://www.european-cyber-resilience-act.com/
+- [Strobes Security Blog — EU Cyber Resilience Act: What You Must Do]  https://strobes.co/blog/eu-cyber-resilience-act-what-you-must-do/
+- [TTMS — The Cyber Resilience Act in the Energy Sector] https://ttms.com/the-cyber-resilience-act-in-the-energy-sector-obligations-risks-and-how-to-prepare/
