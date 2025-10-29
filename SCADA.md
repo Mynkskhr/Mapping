@@ -94,9 +94,7 @@ Preparing early ensures:
 
 > **In summary:** The Cyber Resilience Act is redefining industrial cybersecurity.  
 > SCADA systems that align with CRA, NIS2, and ISO 27001 will form the backbone of **Europe’s next-generation cyber-resilient infrastructure**.
-
-
-> **In summary:** SCADA is not just an automation system, it is the digital nervous system of Europe’s industrial and infrastructure landscape.  
+> SCADA is not just an automation system, it is the digital nervous system of Europe’s industrial and infrastructure landscape.  
 > Securing and modernizing SCADA environments is central to achieving **EU cybersecurity, sustainability, and industrial sovereignty goals**.
 >
 > ## Key Takeaway
