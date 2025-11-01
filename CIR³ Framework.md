@@ -30,7 +30,7 @@ The CIR³ Framework is founded on three core principles:
 
 ---
 
-# 🎯 Purpose of the Thinkwerke CIR³ Framework
+# Purpose of the Thinkwerke CIR³ Framework
 
 The **Thinkwerke CIR³ Framework** (Continuous Intelligence, Integration, and Resilience) is designed to transform compliance from a reactive documentation exercise into an intelligent, continuous, and measurable governance capability.  
 
@@ -40,7 +40,7 @@ The framework embeds governance directly into product delivery and AI operations
 
 Its modular design allows rapid extension to future directives such as **DORA** or the **EU Data Act**, ensuring long-term resilience and sustainable readiness for Diehl Metering’s AI-based solutions in the EU market.
 
-## 🔹 Core Purpose Explained
+## Core Purpose Explained
 
 ### 1. Operationalize Governance
 CIR³ translates regulatory and policy requirements into *live, traceable control actions*.  
