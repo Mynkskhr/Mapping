@@ -16,6 +16,7 @@ The **CIR³ Framework** (Continuous Intelligence · Integration · Resilience) i
 
 CIR³ enables organizations to **move from regulatory obligation to proactive resilience**, integrating governance, AI oversight, and product security within the same operational ecosystem.  
 (“³” conveys power of three, iteration, and self-reinforcing loop.)
+
 ---
 
 ## Framework Philosophy  
