@@ -7,8 +7,15 @@
 ## Overview  
 The **CIR³ Framework** (Continuous Intelligence · Integration · Resilience) is a **strategic–technical compliance model** designed by **Thinkwerke** to operationalize European cybersecurity and AI governance laws — including the **EU NIS2 Directive**, **EU AI Act**, and **Cyber Resilience Act (CRA)** — under a unified management system aligned to **ISO/IEC 27001** and **ENISA maturity guidance**.
 
-CIR³ enables organizations to **move from regulatory obligation to proactive resilience**, integrating governance, AI oversight, and product security within the same operational ecosystem.  
+| **Dimension** | **Description** | **Core Purpose** |
+|----------------|------------------|------------------|
+| **C¹ – Continuous Intelligence** | Data awareness, visibility, and AI-driven insights across the enterprise. | Know what’s happening. |
+| **C² – Continuous Integration** | Embedding compliance, AI governance, and security controls directly into delivery and CI/CD pipelines. | Build compliance by design. |
+| **C³ – Continuous Resilience** | Sustained audit-readiness, ENISA-aligned improvement, and governance assurance. | Prove and sustain governance. |
 
+
+CIR³ enables organizations to **move from regulatory obligation to proactive resilience**, integrating governance, AI oversight, and product security within the same operational ecosystem.  
+(“³” conveys power of three, iteration, and self-reinforcing loop.)
 ---
 
 ## Framework Philosophy  
