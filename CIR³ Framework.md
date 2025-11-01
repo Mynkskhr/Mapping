@@ -78,7 +78,7 @@ The CIR³ Framework is founded on three core principles:
 
 ---
 
-# 💠 THINKWERKE CIR³ FRAMEWORK — VALUE POINTS
+# THINKWERKE CIR³ FRAMEWORK — VALUE POINTS
 
 ## 1. Unified Governance Across All EU Regulations
 The Thinkwerke CIR³ Framework consolidates requirements from **NIS2**, **EU AI Act**, **CRA**, and **ISO 27001** into a single operational model.  
