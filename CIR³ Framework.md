@@ -5,7 +5,7 @@
 ---
 
 ## Overview  
-The **CIR³ Framework** (Continuous Intelligence · Integration · Resilience) is a **strategic–technical compliance model** designed by **Thinkwerke** to operationalize European cybersecurity and AI governance laws — including the **EU NIS2 Directive**, **EU AI Act**, and **Cyber Resilience Act (CRA)** — under a unified management system aligned to **ISO/IEC 27001** and **ENISA maturity guidance**.
+The **CIR³ Framework** (Continuous Intelligence · Integration · Resilience) is a **strategic–technical compliance model** designed by **Thinkwerke** to operationalize European cybersecurity and AI governance laws, including the **EU NIS2 Directive**, **EU AI Act**, and **Cyber Resilience Act (CRA)** under a unified management system aligned to **ISO/IEC 27001** and **ENISA maturity guidance**.
 
 | **Dimension** | **Description** | **Core Purpose** |
 |----------------|------------------|------------------|
@@ -71,9 +71,8 @@ The CIR³ Framework is founded on three core principles:
 ---
 
 ## Strategic Advantage   
->  
-> CIR³ transforms compliance into a **living system** — measurable, teachable, and continuously improving.  
->  
+
+> CIR³ transforms compliance into a **living system** measurable, teachable, and continuously improving.
 > Every regulatory control becomes a business enabler, turning compliance into **competitive resilience**.
 
 ---
@@ -95,7 +94,7 @@ Sentinel, Purview, and Databricks pipelines are unified into a living compliance
 ---
 
 ## 3. Continuous Integration
-Compliance is embedded directly into the CI/CD pipeline — making every deployment verifiable and compliant by design.  
+Compliance is embedded directly into the CI/CD pipeline making every deployment verifiable and compliant by design.  
 CIR³ automatically validates controls, HITL workflows, and AI model documentation before release.  
 **Outcome:** Each release becomes a compliance checkpoint, drastically shortening audit cycles and ensuring provable traceability.
 
@@ -104,7 +103,7 @@ CIR³ automatically validates controls, HITL workflows, and AI model documentati
 ## 4. Continuous Resilience
 Resilience becomes measurable and repeatable.  
 Through evidence automation, ENISA-aligned risk registers, and ISO 27001 mappings, CIR³ continuously validates security posture and regulatory readiness.  
-**Outcome:** Always-audit-ready operations — resilience becomes part of the delivery culture.
+**Outcome:** Always-audit-ready operations resilience becomes part of the delivery culture.
 
 ---
 
@@ -116,8 +115,8 @@ This enables one-click generation of compliance reports, CE declarations, and AI
 ---
 
 ## 6. Integrated Product & Data Compliance
-The Framework bridges AI, cybersecurity, and data governance within one architecture — linking **NIS2 (security)**, **AI Act (ethics)**, **CRA (product)**, and **ISO 27001 (process)**.  
-**Outcome:** Unified risk ownership across engineering, compliance, and product management — ensuring AI systems are secure, explainable, and legally defensible.
+The Framework bridges AI, cybersecurity, and data governance within one architecture. linking **NIS2 (security)**, **AI Act (ethics)**, **CRA (product)**, and **ISO 27001 (process)**.  
+**Outcome:** Unified risk ownership across engineering, compliance, and product management, ensuring AI systems are secure, explainable, and legally defensible.
 
 ---
 
@@ -132,23 +131,23 @@ Through unified dashboards and ENISA-format scorecards, leadership gains visibil
 ---
 
 ## 8. Scalable & Reusable Architecture
-Built once, applied everywhere — CIR³’s modular design supports rapid onboarding of new teams, regions, or regulatory scopes.  
+Built once, applied everywhere, CIR³’s modular design supports rapid onboarding of new teams, regions, or regulatory scopes.  
 It grows with the organization, maintaining control consistency and audit readiness across global deployments.  
 **Outcome:** **Compliance scalability without additional cost or resource overhead.**
 
 ---
 
-## 9. Empowered Workforce & Knowledge Transfer
+## 9. Knowledge Transfer
 Unlike external consultants who operate in isolation, Thinkwerke’s methodology builds permanent internal competence.  
 CIR³ embeds compliance ownership into engineering workflows, enabling cross-functional teams to sustain and evolve compliance independently.  
-**Outcome:** True self-sufficiency — your people own the process, not a third party.
+**Outcome:** True self-sufficiency, your people own the process, not a third party.
 
 ---
 
 ## 10. Strategic Trust & Market Advantage
 The culmination of CIR³ is *trust that can be proven.*  
-When customers, partners, or regulators request evidence, it’s already there — live, current, and standardized.  
-**Outcome:** Diehl Metering positions itself as one of the few EU utility innovators capable of *demonstrating* compliance, not just claiming it — accelerating partnerships, contracts, and public-sector readiness.
+When customers, partners, or regulators request evidence, it’s already there, live, current, and standardized.  
+**Outcome:** Diehl Metering positions itself as one of the few EU utility innovators capable of *demonstrating* compliance, not just claiming it accelerating partnerships, contracts, and public-sector readiness.
 
 ---
 
