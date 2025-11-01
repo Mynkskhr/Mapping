@@ -64,7 +64,7 @@ The CIR³ Framework is founded on three core principles:
 ---
 
 - **Compliance Outcome:**  
-  - >80% overlap with ISO 27001 controls  
+  - 80% overlap with ISO 27001 controls  
   - Real-time visibility for NIS2 and AI Act compliance status  
   - CRA readiness through secure-by-design engineering and SBOM automation  
 
