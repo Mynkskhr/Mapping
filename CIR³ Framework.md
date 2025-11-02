@@ -388,74 +388,65 @@ flowchart LR
 ```mermaid
 
 flowchart TD
-    %% Top layer - ISO foundation
-    ISO[ISO 27001 (2022)\nUnified Control Framework]
+  ISO[ISO 27001 2022 Unified Control Framework]
 
-    %% Core ISO control domains
-    RISK[Risk & Opportunity Management]
-    ACCESS[Access Control & Identity]
-    INCIDENT[Incident Management]
-    SUPPLY[Supplier & Supply Chain Security]
-    DEV[Secure Development Lifecycle]
-    MONITOR[Logging & Monitoring]
-    BACKUP[Backup & Continuity]
-    VULN[Vulnerability Management]
-    DATA[Data Governance & Quality]
-    OVERSIGHT[Governance & Oversight (HITL)]
+  RISK[Risk and Opportunity Management]
+  ACCESS[Access Control and Identity]
+  INCIDENT[Incident Management]
+  SUPPLY[Supplier and Supply Chain Security]
+  DEV[Secure Development Lifecycle]
+  MONITOR[Logging and Monitoring]
+  BACKUP[Backup and Continuity]
+  VULN[Vulnerability Management]
+  DATA[Data Governance and Quality]
+  OVERSIGHT[Governance and Oversight HITL]
 
-    %% ISO connections
-    ISO --> RISK
-    ISO --> ACCESS
-    ISO --> INCIDENT
-    ISO --> SUPPLY
-    ISO --> DEV
-    ISO --> MONITOR
-    ISO --> BACKUP
-    ISO --> VULN
-    ISO --> DATA
-    ISO --> OVERSIGHT
+  ISO --> RISK
+  ISO --> ACCESS
+  ISO --> INCIDENT
+  ISO --> SUPPLY
+  ISO --> DEV
+  ISO --> MONITOR
+  ISO --> BACKUP
+  ISO --> VULN
+  ISO --> DATA
+  ISO --> OVERSIGHT
 
-    %% NIS2 layer
-    NIS2[NIS2 Directive\n(Security & Resilience Obligations)]
-    NIS2 --> RISK
-    NIS2 --> ACCESS
-    NIS2 --> INCIDENT
-    NIS2 --> SUPPLY
-    NIS2 --> DEV
-    NIS2 --> MONITOR
-    NIS2 --> BACKUP
-    NIS2 --> VULN
+  NIS2[NIS2 Directive Security and Resilience] --> RISK
+  NIS2 --> ACCESS
+  NIS2 --> INCIDENT
+  NIS2 --> SUPPLY
+  NIS2 --> DEV
+  NIS2 --> MONITOR
+  NIS2 --> BACKUP
+  NIS2 --> VULN
 
-    %% AI Act layer
-    AIA[EU AI Act\n(High-Risk AI Systems)]
-    AIA --> RISK
-    AIA --> DATA
-    AIA --> DEV
-    AIA --> OVERSIGHT
-    AIA --> MONITOR
-    AIA --> VULN
+  AIA[EU AI Act High Risk AI] --> RISK
+  AIA --> DATA
+  AIA --> DEV
+  AIA --> OVERSIGHT
+  AIA --> MONITOR
+  AIA --> VULN
 
-    %% CRA layer
-    CRA[Cyber Resilience Act\n(Secure Product Lifecycle)]
-    CRA --> RISK
-    CRA --> DEV
-    CRA --> SUPPLY
-    CRA --> BACKUP
-    CRA --> VULN
-    CRA --> MONITOR
+  CRA[Cyber Resilience Act Product Lifecycle] --> RISK
+  CRA --> DEV
+  CRA --> SUPPLY
+  CRA --> BACKUP
+  CRA --> VULN
+  CRA --> MONITOR
 
-    %% Output layer - Benefits
-    OUT[Unified Compliance Evidence\n"Implement Once, Prove Everywhere"]
-    RISK --> OUT
-    ACCESS --> OUT
-    INCIDENT --> OUT
-    SUPPLY --> OUT
-    DEV --> OUT
-    MONITOR --> OUT
-    BACKUP --> OUT
-    VULN --> OUT
-    DATA --> OUT
-    OVERSIGHT --> OUT
+  OUT[Unified Compliance Evidence Implement Once Prove Everywhere]
+  RISK --> OUT
+  ACCESS --> OUT
+  INCIDENT --> OUT
+  SUPPLY --> OUT
+  DEV --> OUT
+  MONITOR --> OUT
+  BACKUP --> OUT
+  VULN --> OUT
+  DATA --> OUT
+  OVERSIGHT --> OUT
+
 
 ```
 
