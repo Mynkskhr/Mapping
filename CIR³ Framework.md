@@ -388,61 +388,68 @@ flowchart LR
 ```mermaid
 
 flowchart LR
-  %% ISO at the center with control domains inside
-  subgraph ISO[ISO 27001 Controls]
-    RISK[Risk management]
-    ACCESS[Access control]
-    INCIDENT[Incident management]
-    LOG[Logging and monitoring]
-    SUPPLY[Supplier security]
-    DEV[Secure development]
-    BACKUP[Backup and continuity]
-    VULN[Vulnerability management]
-    DATA[Data governance]
-    HITL[Governance and oversight HITL]
-  end
+    %% Left side
+    subgraph LEFT [EU Directives: NIS2 and AI Act]
+        NIS2[NIS2 Directive]
+        AIA[EU AI Act]
+    end
 
-  %% Regulations to the right
-  NIS2[NIS2]
-  AIA[AI Act]
-  CRA[CRA]
+    %% Center
+    subgraph ISO [ISO 27001 Core Controls]
+        RISK[Risk management]
+        ACCESS[Access control]
+        INCIDENT[Incident management]
+        LOG[Logging and monitoring]
+        SUPPLY[Supplier security]
+        DEV[Secure development]
+        BACKUP[Backup and continuity]
+        VULN[Vulnerability management]
+        DATA[Data governance]
+        HITL[Governance and oversight HITL]
+    end
 
-  %% Branching from ISO control domains to each regulation
-  RISK --> NIS2
-  RISK --> AIA
-  RISK --> CRA
+    %% Right side
+    subgraph RIGHT [EU Regulation: Cyber Resilience Act (CRA)]
+        CRA[Cyber Resilience Act]
+    end
 
-  ACCESS --> NIS2
-  ACCESS --> AIA
-  ACCESS --> CRA
+    %% Left side connections
+    NIS2 --> RISK
+    NIS2 --> ACCESS
+    NIS2 --> INCIDENT
+    NIS2 --> LOG
+    NIS2 --> SUPPLY
+    NIS2 --> DEV
+    NIS2 --> BACKUP
+    NIS2 --> VULN
 
-  INCIDENT --> NIS2
-  INCIDENT --> AIA
-  INCIDENT --> CRA
+    AIA --> RISK
+    AIA --> DATA
+    AIA --> DEV
+    AIA --> HITL
+    AIA --> LOG
+    AIA --> VULN
 
-  LOG --> NIS2
-  LOG --> AIA
-  LOG --> CRA
+    %% Right side connections
+    CRA --> RISK
+    CRA --> DEV
+    CRA --> SUPPLY
+    CRA --> BACKUP
+    CRA --> VULN
+    CRA --> LOG
 
-  SUPPLY --> NIS2
-  SUPPLY --> CRA
-
-  DEV --> NIS2
-  DEV --> AIA
-  DEV --> CRA
-
-  BACKUP --> NIS2
-  BACKUP --> CRA
-
-  VULN --> NIS2
-  VULN --> AIA
-  VULN --> CRA
-
-  DATA --> AIA
-  DATA --> NIS2
-  DATA --> CRA
-
-  HITL --> AIA
+    %% Output node for unified compliance evidence
+    OUT[Unified Compliance Evidence\nImplement Once – Prove Everywhere]
+    RISK --> OUT
+    ACCESS --> OUT
+    INCIDENT --> OUT
+    LOG --> OUT
+    SUPPLY --> OUT
+    DEV --> OUT
+    BACKUP --> OUT
+    VULN --> OUT
+    DATA --> OUT
+    HITL --> OUT
 
 
 ```
