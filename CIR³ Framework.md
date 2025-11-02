@@ -45,14 +45,19 @@ Its modular design allows rapid extension to future directives such as **DORA** 
 The following diagram illustrates how the **Thinkwerke CIR³ Framework** connects EU and national regulations with technical controls, governance layers, and business outcomes.  
 It demonstrates the end-to-end flow — from regulatory input to evidence generation and measurable organizational value.
 
+## 🧭 CIR³ Framework Flow Overview
+
+The following diagram illustrates how the **Thinkwerke CIR³ Framework** connects EU and national regulations with technical controls, governance layers, and business outcomes.  
+It demonstrates the end-to-end flow — from regulatory input to evidence generation and measurable organizational value.
+
 ```mermaid
 flowchart TD
   %% Regulations → CIR³ → Tooling & Evidence → Outputs → Outcomes
 
   subgraph REG[EU & National Regulations]
-    NIS2[NIS2 Directive<br/>(EU 2022/2555)]
-    AIA[EU AI Act<br/>(EU 2024/1689)]
-    CRA[Cyber Resilience Act<br/>(EU 2024/2847)]
+    NIS2[NIS2 Directive\n(EU 2022/2555)]
+    AIA[EU AI Act\n(EU 2024/1689)]
+    CRA[Cyber Resilience Act\n(EU 2024/2847)]
     ISO[ISO/IEC 27001:2022]
     GDPR[GDPR]
     KRITIS[KRITIS (Germany)]
@@ -61,9 +66,9 @@ flowchart TD
   REG --> CIR3
 
   subgraph CIR3[Thinkwerke CIR³ Framework]
-    CI[Continuous Intelligence<br/>(Visibility · Risk · Lineage)]
-    CN[Continuous Integration<br/>(Controls-in-CI/CD · HITL · Policies)]
-    CR[Continuous Resilience<br/>(Posture · Evidence · Improvement)]
+    CI[Continuous Intelligence\n(Visibility · Risk · Lineage)]
+    CN[Continuous Integration\n(Controls-in-CI/CD · HITL · Policies)]
+    CR[Continuous Resilience\n(Posture · Evidence · Improvement)]
   end
 
   CIR3 --> CI
@@ -71,13 +76,13 @@ flowchart TD
   CIR3 --> CR
 
   subgraph TOOL[Operational Systems & Controls]
-    AZP[Azure Policy / Defender (CSPM)]
-    SENT[Microsoft Sentinel + Logic Apps (SIEM/SOAR)]
-    ENTRA[Microsoft Entra ID (IAM/PIM)]
-    DBX[Databricks + Unity Catalog (Data & Access)]
-    MLF[MLflow (Model Registry / Lineage)]
-    PURV[Microsoft Purview (Lineage / DLP)]
-    ACR[Azure Container Registry (SBOM / Scans)]
+    AZP[Azure Policy / Defender\n(CSPM)]
+    SENT[Microsoft Sentinel + Logic Apps\n(SIEM/SOAR)]
+    ENTRA[Microsoft Entra ID\n(IAM / PIM)]
+    DBX[Databricks + Unity Catalog\n(Data & Access)]
+    MLF[MLflow\n(Model Registry / Lineage)]
+    PURV[Microsoft Purview\n(Lineage / DLP)]
+    ACR[Azure Container Registry\n(SBOM / Scans)]
   end
 
   CI --> SENT
@@ -138,6 +143,7 @@ flowchart TD
   OUT --> V3
   OUT --> V4
   OUT --> V5
+
 
 
 ## Core Purpose Explained
