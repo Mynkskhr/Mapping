@@ -388,20 +388,7 @@ flowchart LR
 ```mermaid
 
 flowchart TD
-  ISO[ISO 27001 2022 Unified Control Framework]
-
-  RISK[Risk and Opportunity Management]
-  ACCESS[Access Control and Identity]
-  INCIDENT[Incident Management]
-  SUPPLY[Supplier and Supply Chain Security]
-  DEV[Secure Development Lifecycle]
-  MONITOR[Logging and Monitoring]
-  BACKUP[Backup and Continuity]
-  VULN[Vulnerability Management]
-  DATA[Data Governance and Quality]
-  OVERSIGHT[Governance and Oversight HITL]
-
-  ISO --> RISK
+  ISO[ISO 27001] --> RISK
   ISO --> ACCESS
   ISO --> INCIDENT
   ISO --> SUPPLY
@@ -412,7 +399,7 @@ flowchart TD
   ISO --> DATA
   ISO --> OVERSIGHT
 
-  NIS2[NIS2 Directive Security and Resilience] --> RISK
+  NIS2[NIS2] --> RISK
   NIS2 --> ACCESS
   NIS2 --> INCIDENT
   NIS2 --> SUPPLY
@@ -421,21 +408,21 @@ flowchart TD
   NIS2 --> BACKUP
   NIS2 --> VULN
 
-  AIA[EU AI Act High Risk AI] --> RISK
+  AIA[AI Act] --> RISK
   AIA --> DATA
   AIA --> DEV
   AIA --> OVERSIGHT
   AIA --> MONITOR
   AIA --> VULN
 
-  CRA[Cyber Resilience Act Product Lifecycle] --> RISK
+  CRA[CRA] --> RISK
   CRA --> DEV
   CRA --> SUPPLY
   CRA --> BACKUP
   CRA --> VULN
   CRA --> MONITOR
 
-  OUT[Unified Compliance Evidence Implement Once Prove Everywhere]
+  OUT[Unified Evidence] 
   RISK --> OUT
   ACCESS --> OUT
   INCIDENT --> OUT
@@ -446,6 +433,7 @@ flowchart TD
   VULN --> OUT
   DATA --> OUT
   OVERSIGHT --> OUT
+
 
 
 ```
