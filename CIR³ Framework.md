@@ -30,6 +30,42 @@ The CIR³ Framework is founded on three core principles:
 
 ---
 
+```mermaid
+
+flowchart TD
+  %% Top-level flow: Inputs → Layers → Outputs
+
+  subgraph INPUTS[Inputs & Context]
+    R1[Regulatory Requirements<br/>NIS2 · AI Act · CRA · ISO]
+    D1[Operational Data<br/>Azure · Databricks · MLflow · Purview]
+  end
+
+  subgraph LAYERS[Thinkwerke CIR3 Framework]
+    CI[Continuous Intelligence<br/>Visibility · Risk · Lineage]
+    CN[Continuous Integration<br/>Controls in Delivery Pipelines]
+    CR[Continuous Resilience<br/>Evidence · Testing · Improvement]
+  end
+
+  subgraph OUTPUTS[Outputs & Results]
+    E1[Automated Evidence<br/>Audit Trails · Reports]
+    E2[Governance Dashboards<br/>ENISA / ISO Metrics]
+    E3[Continuous Improvement<br/>Risk Reduction · Trust Gain]
+  end
+
+  %% Connections
+  R1 --> CI
+  D1 --> CI
+  CI --> CN
+  CN --> CR
+  CR --> E1
+  CR --> E2
+  CR --> E3
+
+  %% Feedback loop for continuous improvement
+  E3 --> CI
+
+```
+
 # Purpose of the Thinkwerke CIR³ Framework
 
 The **Thinkwerke CIR³ Framework** (Continuous Intelligence, Integration, and Resilience) is designed to transform compliance from a reactive documentation exercise into an intelligent, continuous, and measurable governance capability.  
