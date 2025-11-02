@@ -40,6 +40,13 @@ The framework embeds governance directly into product delivery and AI operations
 
 Its modular design allows rapid extension to future directives such as **DORA** or the **EU Data Act**, ensuring long-term resilience and sustainable readiness for Diehl Metering’s AI-based solutions in the EU market.
 
+flowchart TD
+  A[Regulations] --> B[CIR3 Framework]
+  B --> C[Systems and Tools]
+  C --> D[Evidence and Outputs]
+  D --> E[Business Outcomes]
+
+
 
 ## Core Purpose Explained
 
