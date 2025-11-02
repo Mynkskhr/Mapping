@@ -40,49 +40,38 @@ The framework embeds governance directly into product delivery and AI operations
 
 Its modular design allows rapid extension to future directives such as **DORA** or the **EU Data Act**, ensuring long-term resilience and sustainable readiness for Diehl Metering’s AI-based solutions in the EU market.
 
-## 🧭 CIR³ Framework Flow Overview
-
-The following diagram illustrates how the **Thinkwerke CIR³ Framework** connects EU and national regulations with technical controls, governance layers, and business outcomes.  
-It demonstrates the end-to-end flow — from regulatory input to evidence generation and measurable organizational value.
-
-## 🧭 CIR³ Framework Flow Overview
-
-The following diagram illustrates how the **Thinkwerke CIR³ Framework** connects EU and national regulations with technical controls, governance layers, and business outcomes.  
-It demonstrates the end-to-end flow — from regulatory input to evidence generation and measurable organizational value.
-
-```mermaid
 flowchart TD
-  %% Regulations → CIR³ → Tooling & Evidence → Outputs → Outcomes
+  %% Regulations → CIR3 → Tooling & Evidence → Outputs → Outcomes
 
-  subgraph REG[EU & National Regulations]
-    NIS2[NIS2 Directive\n(EU 2022/2555)]
-    AIA[EU AI Act\n(EU 2024/1689)]
-    CRA[Cyber Resilience Act\n(EU 2024/2847)]
-    ISO[ISO/IEC 27001:2022]
+  subgraph REG[EU and National Regulations]
+    NIS2[NIS2 Directive EU 2022-2555]
+    AIA[EU AI Act EU 2024-1689]
+    CRA[Cyber Resilience Act EU 2024-2847]
+    ISO[ISO 27001 2022]
     GDPR[GDPR]
-    KRITIS[KRITIS (Germany)]
+    KRITIS[KRITIS Germany]
   end
 
   REG --> CIR3
 
-  subgraph CIR3[Thinkwerke CIR³ Framework]
-    CI[Continuous Intelligence\n(Visibility · Risk · Lineage)]
-    CN[Continuous Integration\n(Controls-in-CI/CD · HITL · Policies)]
-    CR[Continuous Resilience\n(Posture · Evidence · Improvement)]
+  subgraph CIR3[Thinkwerke CIR3 Framework]
+    CI[Continuous Intelligence]
+    CN[Continuous Integration]
+    CR[Continuous Resilience]
   end
 
   CIR3 --> CI
   CIR3 --> CN
   CIR3 --> CR
 
-  subgraph TOOL[Operational Systems & Controls]
-    AZP[Azure Policy / Defender\n(CSPM)]
-    SENT[Microsoft Sentinel + Logic Apps\n(SIEM/SOAR)]
-    ENTRA[Microsoft Entra ID\n(IAM / PIM)]
-    DBX[Databricks + Unity Catalog\n(Data & Access)]
-    MLF[MLflow\n(Model Registry / Lineage)]
-    PURV[Microsoft Purview\n(Lineage / DLP)]
-    ACR[Azure Container Registry\n(SBOM / Scans)]
+  subgraph TOOL[Operational Systems and Controls]
+    AZP[Azure Policy and Defender CSPM]
+    SENT[Microsoft Sentinel and Logic Apps SIEM SOAR]
+    ENTRA[Microsoft Entra ID IAM PIM]
+    DBX[Databricks and Unity Catalog Data Access]
+    MLF[MLflow Model Registry and Lineage]
+    PURV[Microsoft Purview Lineage DLP]
+    ACR[Azure Container Registry SBOM Scans]
   end
 
   CI --> SENT
@@ -96,13 +85,13 @@ flowchart TD
   CR --> PURV
   CR --> AZP
 
-  subgraph EVID[Evidence Lake & GRC Orchestration]
-    EV1[Telemetry & Audit Logs]
-    EV2[Access & Policy States]
-    EV3[Model Cards & HITL Records]
-    EV4[SBOM & Vulnerability Lifecycle]
-    EV5[Restore / BCDR Test Results]
-    EV6[Risk Register & Control Matrix]
+  subgraph EVID[Evidence Lake and GRC Orchestration]
+    EV1[Telemetry and Audit Logs]
+    EV2[Access and Policy States]
+    EV3[Model Cards and HITL Records]
+    EV4[SBOM and Vulnerability Lifecycle]
+    EV5[Restore and BCDR Test Results]
+    EV6[Risk Register and Control Matrix]
   end
 
   SENT --> EV1
@@ -114,13 +103,13 @@ flowchart TD
   PURV --> EV6
   SENT --> EV6
 
-  subgraph OUT[Auto-Generated Outputs]
-    O1[ENISA / NIS2 Compliance Reports]
+  subgraph OUT[Auto Generated Outputs]
+    O1[ENISA and NIS2 Compliance Reports]
     O2[AI Act Annex IV Technical File]
-    O3[CRA / CE Conformity Dossier]
+    O3[CRA and CE Conformity Dossier]
     O4[ISO 27001 Evidence Pack]
-    O5[Executive Dashboards (KPIs)]
-    O6[Tender / Customer Packs (One-Click)]
+    O5[Executive Dashboards KPIs]
+    O6[Tender and Customer Packs One Click]
   end
 
   EVID --> O1
@@ -131,10 +120,10 @@ flowchart TD
   EVID --> O6
 
   subgraph VALUE[Business Outcomes]
-    V1[Always-Audit-Ready]
-    V2[Reduced Cost & Cycle Time]
+    V1[Always Audit Ready]
+    V2[Reduced Cost and Cycle Time]
     V3[Accelerated Market Entry]
-    V4[Provable Trust & Governance]
+    V4[Provable Trust and Governance]
     V5[Scalable Resilience]
   end
 
