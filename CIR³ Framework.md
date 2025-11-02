@@ -42,6 +42,12 @@ Its modular design allows rapid extension to future directives such as **DORA** 
 
 ```mermaid
 
+flowchart LR NIS2[NIS2] --> CIR3[CIR3 Framework] AIA[EU AI Act] --> CIR3 CRA[CRA] --> CIR3 ISO[ISO 27001] --> CIR3 GDPR[GDPR] --> CIR3 CIR3 --> TOOLS[Security & Data Tools] TOOLS --> EVID[Evidence] EVID --> REPORTS[Reports & Dashboards] REPORTS --> VALUE[Business Outcomes]
+
+```
+
+```mermaid
+
 flowchart LR
 NIS2[NIS2 Directive] --> CIR3[Thinkwerke CIR3 Framework]
 AIA[EU AI Act] --> CIR3
