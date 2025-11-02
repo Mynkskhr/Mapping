@@ -387,53 +387,62 @@ flowchart LR
 
 ```mermaid
 
-flowchart TD
-  ISO[ISO 27001] --> RISK
-  ISO --> ACCESS
-  ISO --> INCIDENT
-  ISO --> SUPPLY
-  ISO --> DEV
-  ISO --> MONITOR
-  ISO --> BACKUP
-  ISO --> VULN
-  ISO --> DATA
-  ISO --> OVERSIGHT
+flowchart LR
+  %% ISO at the center with control domains inside
+  subgraph ISO[ISO 27001 Controls]
+    RISK[Risk management]
+    ACCESS[Access control]
+    INCIDENT[Incident management]
+    LOG[Logging and monitoring]
+    SUPPLY[Supplier security]
+    DEV[Secure development]
+    BACKUP[Backup and continuity]
+    VULN[Vulnerability management]
+    DATA[Data governance]
+    HITL[Governance and oversight HITL]
+  end
 
-  NIS2[NIS2] --> RISK
-  NIS2 --> ACCESS
-  NIS2 --> INCIDENT
-  NIS2 --> SUPPLY
-  NIS2 --> DEV
-  NIS2 --> MONITOR
-  NIS2 --> BACKUP
-  NIS2 --> VULN
+  %% Regulations to the right
+  NIS2[NIS2]
+  AIA[AI Act]
+  CRA[CRA]
 
-  AIA[AI Act] --> RISK
-  AIA --> DATA
-  AIA --> DEV
-  AIA --> OVERSIGHT
-  AIA --> MONITOR
-  AIA --> VULN
+  %% Branching from ISO control domains to each regulation
+  RISK --> NIS2
+  RISK --> AIA
+  RISK --> CRA
 
-  CRA[CRA] --> RISK
-  CRA --> DEV
-  CRA --> SUPPLY
-  CRA --> BACKUP
-  CRA --> VULN
-  CRA --> MONITOR
+  ACCESS --> NIS2
+  ACCESS --> AIA
+  ACCESS --> CRA
 
-  OUT[Unified Evidence] 
-  RISK --> OUT
-  ACCESS --> OUT
-  INCIDENT --> OUT
-  SUPPLY --> OUT
-  DEV --> OUT
-  MONITOR --> OUT
-  BACKUP --> OUT
-  VULN --> OUT
-  DATA --> OUT
-  OVERSIGHT --> OUT
+  INCIDENT --> NIS2
+  INCIDENT --> AIA
+  INCIDENT --> CRA
 
+  LOG --> NIS2
+  LOG --> AIA
+  LOG --> CRA
+
+  SUPPLY --> NIS2
+  SUPPLY --> CRA
+
+  DEV --> NIS2
+  DEV --> AIA
+  DEV --> CRA
+
+  BACKUP --> NIS2
+  BACKUP --> CRA
+
+  VULN --> NIS2
+  VULN --> AIA
+  VULN --> CRA
+
+  DATA --> AIA
+  DATA --> NIS2
+  DATA --> CRA
+
+  HITL --> AIA
 
 
 ```
