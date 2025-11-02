@@ -352,6 +352,22 @@ flowchart LR
 
 ```
 
+## Quick Overlap Map — EU AI Act vs NIS2 vs ISO 27001
+
+| **Control Domain**        | **EU AI Act**                                         | **NIS2 Directive**                               | **ISO 27001 (2022)**                           |
+|----------------------------|-------------------------------------------------------|--------------------------------------------------|------------------------------------------------|
+| **Risk Management**        | *Art. 9* – Risk management system                    | *Art. 21* – Risk management measures             | Clause 6 – Planning and risk treatment         |
+| **Data Governance**        | *Art. 10* – Data governance and data quality         | *Art. 21* – Operational security measures        | Annex A 8 – Information classification         |
+| **Access Control**         | *Art. 15* – Security for high-risk AI systems        | *Art. 21* – Access control and identity          | Annex A 5 & 8 – Access management              |
+| **Logging & Monitoring**  | *Art. 12* – Logging of high-risk AI activities       | *Art. 21* – Monitoring and detection             | Annex A 8 – Logging and monitoring             |
+| **Incident Response**      | *Art. 62* – Incident reporting obligations           | *Art. 23* – Incident notification timelines      | Annex A 5 & 8 – Incident management            |
+| **Supplier Security**      | Annex IV – Technical file / vendor artifacts         | *Art. 21* – Supply chain security                | Annex A 5 – Supplier relationships             |
+| **Backup & Continuity**    | (Not explicit; supports robustness via Art. 15)      | *Art. 21* – Backup and disaster recovery         | Annex A 5 & 8 – Business continuity            |
+| **AI Oversight / HITL**    | *Art. 14* – Human-in-the-loop oversight              | (Not explicit; supports governance)              | Annex A 5 – Roles and responsibilities         |
+
+> **Note:** “Not explicit” means the directive or standard does not define a standalone clause but supports the concept through governance or operational measures.
+
+
 **Prepared by:** Thinkwerke – Strategy Meets Security  
 **Date:** October 2025  
 **Framework Author:** Mayank Sekhar, CISM · ISO 27001 LI · AWS SA Pro · CompTIA SecurityX Architect · NIS2 and DORA Trained Pro
