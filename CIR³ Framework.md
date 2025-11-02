@@ -40,6 +40,53 @@ The framework embeds governance directly into product delivery and AI operations
 
 Its modular design allows rapid extension to future directives such as **DORA** or the **EU Data Act**, ensuring long-term resilience and sustainable readiness for Diehl Metering’s AI-based solutions in the EU market.
 
+## 🧭 CIR3 Framework Flow Overview
+
+This diagram shows how the **Thinkwerke CIR3 Framework** connects EU regulations with your compliance, technical systems, and business outcomes.
+
+```mermaid
+flowchart TD
+  subgraph A[Regulations]
+    NIS2[NIS2 Directive]
+    AI[EU AI Act]
+    CRA[Cyber Resilience Act]
+    ISO[ISO 27001]
+    GDPR[GDPR]
+  end
+
+  subgraph B[CIR3 Framework]
+    CI[Continuous Intelligence]
+    CN[Continuous Integration]
+    CR[Continuous Resilience]
+  end
+
+  subgraph C[Systems and Tools]
+    AZ[Azure Policy]
+    DB[Databricks]
+    ML[MLflow]
+    PV[Purview]
+    ST[Sentinel]
+  end
+
+  subgraph D[Evidence and Outputs]
+    EV[Evidence Lake]
+    RP[Compliance Reports]
+    TF[Technical File]
+    DS[Dashboards]
+  end
+
+  subgraph E[Business Outcomes]
+    AR[Always Audit Ready]
+    TM[Time to Market]
+    SR[Scalable Resilience]
+  end
+
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+
+
 
 ## Core Purpose Explained
 
