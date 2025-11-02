@@ -278,6 +278,80 @@ When customers, partners, or regulators request evidence, it’s already there, 
 
 ---
 
+```mermaid
+
+flowchart LR
+  subgraph REGS [Regulations]
+    AIA[EU AI Act]
+    NIS[NIS 2]
+    ISO[ISO 27001]
+  end
+
+  subgraph DOMAINS [Shared Control Domains]
+    RM[Risk management]
+    DG[Data governance]
+    AC[Access control]
+    LOG[Logging and monitoring]
+    IR[Incident response]
+    SC[Supplier security]
+    BC[Backup and continuity]
+    AIH[AI oversight HITL]
+  end
+
+  subgraph IMPL [Implementation Layer]
+    POL[Policies and standards]
+    PIPE[CI CD and DevSecOps gates]
+    GOV[GRC and evidence automation]
+    OBS[Dashboards and KPIs]
+  end
+
+  subgraph OUT [Outputs]
+    EVID[Evidence packs]
+    REPT[Compliance reports]
+    VALUE[Business outcomes]
+  end
+
+  AIA --> RM
+  AIA --> DG
+  AIA --> AC
+  AIA --> LOG
+  AIA --> IR
+  AIA --> SC
+  AIA --> AIH
+
+  NIS --> RM
+  NIS --> AC
+  NIS --> LOG
+  NIS --> IR
+  NIS --> SC
+  NIS --> BC
+
+  ISO --> RM
+  ISO --> DG
+  ISO --> AC
+  ISO --> LOG
+  ISO --> IR
+  ISO --> SC
+  ISO --> BC
+
+  RM --> POL
+  DG --> POL
+  AC --> PIPE
+  LOG --> PIPE
+  IR --> GOV
+  SC --> GOV
+  BC --> GOV
+  AIH --> PIPE
+
+  POL --> EVID
+  PIPE --> EVID
+  GOV --> EVID
+  OBS --> REPT
+  EVID --> REPT
+  REPT --> VALUE
+
+```
+
 **Prepared by:** Thinkwerke – Strategy Meets Security  
 **Date:** October 2025  
 **Framework Author:** Mayank Sekhar, CISM · ISO 27001 LI · AWS SA Pro · CompTIA SecurityX Architect · NIS2 and DORA Trained Pro
