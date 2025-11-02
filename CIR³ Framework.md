@@ -368,6 +368,25 @@ flowchart LR
 > **Note:** “Not explicit” means the directive or standard does not define a standalone clause but supports the concept through governance or operational measures.
 
 
+## 🧩 Overlap Map — NIS2 · EU AI Act · Cyber Resilience Act (CRA) vs ISO 27001
+
+| **Control Domain**         | **NIS2 Directive**                                   | **EU AI Act**                                       | **Cyber Resilience Act (CRA)**                                   | **ISO 27001 (2022)**                                  |
+|-----------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------------|
+| **Risk Management**         | *Art. 21(1–2)* – Security & risk management measures | *Art. 9* – AI risk management system                 | *Annex I* – Product design and risk assessment                   | Clause 6 – Planning and risk treatment                |
+| **Incident Response**       | *Art. 23* – Incident notification & coordination     | *Art. 62* – Reporting of serious incidents           | *Art. 11* – Vulnerability disclosure within 24 h                 | Annex A 5 & 8 – Incident management                   |
+| **Access Control & Identity** | *Art. 21(2)* – Access control, least privilege       | *Art. 15* – Robustness & cybersecurity of AI systems | *Annex I* – Secure configuration, identity, and authentication   | Annex A 5 & 8 – Access management                     |
+| **Logging & Monitoring**   | *Art. 21(2)(d)* – Detection and logging              | *Art. 12* – AI system logging requirements           | *Annex I* – Event logging and integrity                          | Annex A 8 – Logging and monitoring                    |
+| **Supplier & Supply Chain Security** | *Art. 21(2)(f)* – Supply chain security          | Annex IV – Technical documentation for suppliers     | *Annex II* – Component supplier obligations                      | Annex A 5 – Supplier relationships                    |
+| **Data Governance & Quality** | *Art. 21(2)* – Operational security controls        | *Art. 10* – Data governance & dataset quality        | *Annex I* – Secure data handling and validation                  | Annex A 8 – Information classification                |
+| **Backup & Continuity**     | *Art. 21(2)(e)* – Backup and disaster recovery       | (Indirect support via robustness requirements)       | *Annex I* – Recovery and patch management processes              | Annex A 5 & 8 – Business continuity management        |
+| **Vulnerability Management**| *Art. 21(2)(d)* – Vulnerability handling             | *Art. 15* – AI robustness and vulnerability testing  | *Art. 10–11* – Vulnerability handling and patch policy           | Annex A 8 – Vulnerability management                  |
+| **Secure Development (SDLC)**| *Art. 21(2)(d)* – Security by design                | *Art. 15* – Robustness, testing, secure design       | *Annex I* – Secure product lifecycle                             | Annex A 8 – Secure development lifecycle              |
+| **AI Oversight / HITL**     | (Not explicit; part of governance measures)          | *Art. 14* – Human oversight (HITL)                   | (Not applicable directly)                                        | Annex A 5 – Roles and responsibilities                |
+
+> **Note:** Controls highlighted across NIS2, AI Act, and CRA demonstrate that a single ISO 27001-aligned control framework can produce reusable evidence across all three regulations. This underpins the Thinkwerke CIR³ approach — *implement once, prove everywhere*.
+
+
+
 **Prepared by:** Thinkwerke – Strategy Meets Security  
 **Date:** October 2025  
 **Framework Author:** Mayank Sekhar, CISM · ISO 27001 LI · AWS SA Pro · CompTIA SecurityX Architect · NIS2 and DORA Trained Pro
