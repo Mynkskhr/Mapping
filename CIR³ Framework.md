@@ -32,32 +32,32 @@ The CIR³ Framework is founded on three core principles:
 
 ```mermaid
 
-flowchart TD
-  A[Plan] --> B[Build]
-  B --> C[Test]
-  C --> D[Deploy]
-  D --> E[Operate]
-  E --> A
-
-  subgraph GATES[Compliance Control Gates]
-    G1[Risk and Control Mapping]
-    G2[Policy Check and SBOM]
-    G3[HITL and Model Card]
-    G4[Release Approval]
-    G5[Evidence Capture]
+flowchart LR
+  subgraph INPUTS [Inputs]
+    REG[Regulatory Requirements]
+    TEL[Operational Telemetry]
   end
 
-  %% gates bound to stages
-  A -.-> G1
-  B -.-> G2
-  C -.-> G3
-  D -.-> G4
-  E -.-> G5
+  subgraph CIR3 [Thinkwerke CIR3 Lifecycle]
+    CI[Continuous Intelligence]
+    CN[Continuous Integration]
+    CR[Continuous Resilience]
+  end
 
-  %% evidence and reporting
-  E --> EV[Evidence Lake]
-  EV --> RP[Compliance Reports]
-  EV --> DB[Executive Dashboard]
+  subgraph OUTPUTS [Outputs]
+    EVID[Automated Evidence]
+    RPTS[Reports and Dashboards]
+    VALUE[Business Outcomes]
+  end
+
+  REG --> CI
+  TEL --> CI
+  CI --> CN
+  CN --> CR
+  CR --> EVID
+  EVID --> RPTS
+  RPTS --> VALUE
+  VALUE --> CI
 
 ```
 
