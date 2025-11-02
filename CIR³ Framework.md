@@ -32,37 +32,39 @@ The CIR³ Framework is founded on three core principles:
 
 ```mermaid
 
-flowchart TD
-  %% Top-level flow: Inputs → Layers → Outputs
-
-  subgraph INPUTS[Inputs & Context]
-    R1[Regulatory Requirements<br/>NIS2 · AI Act · CRA · ISO]
-    D1[Operational Data<br/>Azure · Databricks · MLflow · Purview]
+flowchart LR
+  subgraph INPUTS[Inputs]
+    REG[Regulatory Requirements]
+    TEL[Operational Telemetry]
   end
 
-  subgraph LAYERS[Thinkwerke CIR3 Framework]
-    CI[Continuous Intelligence<br/>Visibility · Risk · Lineage]
-    CN[Continuous Integration<br/>Controls in Delivery Pipelines]
-    CR[Continuous Resilience<br/>Evidence · Testing · Improvement]
+  subgraph CIR3[Thinkwerke CIR3 Lifecycle]
+    CI[Continuous Intelligence]
+    CN[Continuous Integration]
+    CR[Continuous Resilience]
   end
 
-  subgraph OUTPUTS[Outputs & Results]
-    E1[Automated Evidence<br/>Audit Trails · Reports]
-    E2[Governance Dashboards<br/>ENISA / ISO Metrics]
-    E3[Continuous Improvement<br/>Risk Reduction · Trust Gain]
+  subgraph OUTPUTS[Outputs]
+    EVID[Automated Evidence]
+    RPTS[Reports and Dashboards]
+    VALUE[Business Outcomes]
   end
 
-  %% Connections
-  R1 --> CI
-  D1 --> CI
+  %% flow
+  REG --> CI
+  TEL --> CI
   CI --> CN
   CN --> CR
-  CR --> E1
-  CR --> E2
-  CR --> E3
+  CR --> EVID
+  EVID --> RPTS
+  RPTS --> VALUE
+  VALUE --> CI  %% feedback loop to improve intelligence
 
-  %% Feedback loop for continuous improvement
-  E3 --> CI
+  %% quick anchors
+  note right of CI: Discover assets and risks\nClassify data and models\nMap controls and owners
+  note right of CN: Embed controls in pipelines\nHITL approvals and model cards\nPolicy checks at release
+  note right of CR: Posture monitoring\nRestore and drill tests\nVulnerability lifecycle
+
 
 ```
 
