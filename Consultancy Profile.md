@@ -1,6 +1,6 @@
 # **MAYANK SEKHAR**
 **Information Security & Cloud Consultant**  
-📧 *Mayankshekharsingh@gmail.com* | 📱 *+94 74 330 1711*  
+📧 *Mayankshekharsingh@gmail.com* | 📱 *+91 8882976088 /+94 74 330 1711*  
 🌍 *LinkedIn:* [linkedin.com/in/mayank-sekhar](https://www.linkedin.com/in/mayank-sekhar/)
 
 ---
