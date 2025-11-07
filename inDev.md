@@ -1,3 +1,5 @@
+```mermaid
+
 flowchart TD
   A[Customer security query intake\n(form, ticket, email)] --> B{Scope triage}
   B -- App/Code available? --> C[Run SAST\n(e.g., CodeQL/semgrep)]
@@ -14,3 +16,5 @@ flowchart TD
   B -- Out of scope --> X[Clarify scope & re-intake]
   I --> |FP review| R[Analyst validation\n(false positives, dupes)]
   R --> I
+
+```
