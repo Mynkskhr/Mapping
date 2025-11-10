@@ -134,12 +134,12 @@ This ensures consistent governance, measurable risk reduction, and unified compl
 
 | **Requirement**                                    | **Control Objective**                                                                                            | **Linked Article / Reference** | **Status / Implementation Evidence**      |
 | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------ | ----------------------------------------- |
-| **Asset Inventory in CMDB**                        | Ensure all critical assets and systems are identified, tracked, and linked to configuration management database. | **Art. 21(2)(a)**              | ☐ Entry exists in CMDB (ID recorded)      |
-| **Vulnerability Management Process**               | Establish continuous vulnerability identification, assessment, and remediation with defined schedule.            | **Art. 21(2)(d)**              | ☐ Linked process and schedule defined     |
-| **Incident Reporting & Contact Runbook**           | Implement reporting procedures, including defined roles and escalation contacts, integrated into repository.     | **Art. 23**                    | ☐ Incident response runbook documented    |
-| **Backup & Recovery Procedures**                   | Maintain tested and documented backup and recovery plans to ensure business continuity.                          | **Art. 21(2)(e)**              | ☐ Backup and recovery tested and verified |
-| **Supplier Risk Assessment**                       | Evaluate suppliers, dependencies, and containers for security posture and contractual risk.                      | **Art. 21(2)(d,f)**            | ☐ Supplier risk analysis completed        |
-| **Data Transfer & Legal Basis (Conditional – EU)** | Validate GDPR and cross-border data transfer compliance for EU-based processing.                                 | **GDPR / NIS2 interplay**      | ☐ Data transfer and legal basis reviewed  |
+| **Asset Inventory in CMDB**                        | Ensure all critical assets and systems are identified, tracked, and linked to configuration management database. | **Art. 21(2)(a)**              | Entry exists in CMDB (ID recorded)      |
+| **Vulnerability Management Process**               | Establish continuous vulnerability identification, assessment, and remediation with defined schedule.            | **Art. 21(2)(d)**              | Linked process and schedule defined     |
+| **Incident Reporting & Contact Runbook**           | Implement reporting procedures, including defined roles and escalation contacts, integrated into repository.     | **Art. 23**                    | Incident response runbook documented    |
+| **Backup & Recovery Procedures**                   | Maintain tested and documented backup and recovery plans to ensure business continuity.                          | **Art. 21(2)(e)**              | Backup and recovery tested and verified |
+| **Supplier Risk Assessment**                       | Evaluate suppliers, dependencies, and containers for security posture and contractual risk.                      | **Art. 21(2)(d,f)**            | Supplier risk analysis completed        |
+| **Data Transfer & Legal Basis (Conditional – EU)** | Validate GDPR and cross-border data transfer compliance for EU-based processing.                                 | **GDPR / NIS2 interplay**      | Data transfer and legal basis reviewed  |
 
 
 
