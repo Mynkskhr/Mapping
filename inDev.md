@@ -40,6 +40,7 @@ flowchart TB
         F[Closure<br>Ticket closed, evidence mapped<br>to NIS2/CRA/ISO controls]
     end
 
-```
     %% Flows
     A --> B --> C --> D --> E --> F
+
+```
