@@ -19,28 +19,18 @@ flowchart TB
 
 ```mermaid
 
-flowchart TB
+flowchart LR
 
-    %% Lanes
-    subgraph DevSecOps[DevSecOps]
-        A[Automated Scans<br>SAST, SCA/SBOM, DAST, IaC, Container, Secrets]
-        B[Detection<br>Vulnerabilities & license issues]
-    end
+    A[Automated Scans<br>SAST, SCA/SBOM, DAST, IaC, Container, Secrets]
+    B[Detection<br>Vulnerabilities & license issues]
+    C[Triage<br>Severity & exploitability]
+    D[Remediation<br>Developer fix + SLA tracking]
+    E[Verification<br>Re-scan / Code Review]
+    F[Closure<br>Resolved → Ticket Closed]
+    G[Escalation<br>Critical/High unresolved]
 
-    subgraph Developers[Developers]
-        C[Triage<br>Severity, exploitability, business impact]
-        D[Remediation<br>Fix implementation<br>+ SLA accountability]
-    end
-
-    subgraph SecurityChampions[Security Champions]
-        E[Verification<br>Re-scan, Code Review,<br>Technical validation]
-    end
-
-    subgraph Compliance[Compliance / ISMS]
-        F[Closure<br>Ticket closed, evidence mapped<br>to NIS2/CRA/ISO controls]
-    end
-
-    %% Flows
     A --> B --> C --> D --> E --> F
+    E --> G
+
 
 ```
