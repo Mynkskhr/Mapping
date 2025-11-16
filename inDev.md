@@ -34,3 +34,30 @@ flowchart LR
 
 
 ```
+
+```mermaid
+flowchart TB
+
+    subgraph DevSecOps[DevSecOps]
+        A[Automated Scans]
+        B[Detection]
+    end
+
+    subgraph Developers[Developers]
+        C[Triage]
+        D[Remediation]
+    end
+
+    subgraph SecurityChampions[Security Champions]
+        E[Verification]
+    end
+
+    subgraph Compliance[Compliance / ISMS]
+        F[Closure]
+        G[Escalation<br>Critical/High unresolved]
+    end
+
+    A --> B --> C --> D --> E --> F
+    E --> G
+
+```
