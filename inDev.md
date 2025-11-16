@@ -36,28 +36,18 @@ flowchart LR
 ```
 
 ```mermaid
-flowchart TB
 
-    subgraph DevSecOps[DevSecOps]
-        A[Automated Scans]
-        B[Detection]
-    end
+flowchart LR
 
-    subgraph Developers[Developers]
-        C[Triage]
-        D[Remediation]
-    end
+    A[Automated Checks<br>SAST, SCA/SBOM, DAST, IaC, Container, Secrets]
+    B[Detection<br>Issues identified in code & components]
+    C[Triage<br>Risk, severity, business impact]
+    D[Ticket Creation<br>Jira issue with owner & SLA]
+    E[Remediation<br>Team fixes issue]
+    F[Verification<br>Re-scan / review confirms fix]
+    G[Closure / Escalation<br>Closed if resolved,<br>escalated if not]
 
-    subgraph SecurityChampions[Security Champions]
-        E[Verification]
-    end
+    A --> B --> C --> D --> E --> F --> G
 
-    subgraph Compliance[Compliance / ISMS]
-        F[Closure]
-        G[Escalation<br>Critical/High unresolved]
-    end
-
-    A --> B --> C --> D --> E --> F
-    E --> G
 
 ```
