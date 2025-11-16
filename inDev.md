@@ -37,7 +37,7 @@ flowchart LR
 
 ```mermaid
 
-flowchart TB
+flowchart LB
 
 %% ---------------------------
 %% TOP SECTION (HORIZONTAL)
