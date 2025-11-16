@@ -39,15 +39,23 @@ flowchart LR
 
 flowchart LR
 
-    A[Automated Checks<br>SAST, SCA/SBOM, DAST, IaC, Container, Secrets]
-    B[Detection<br>Issues identified in code & components]
-    C[Triage<br>Risk, severity, business impact]
-    D[Ticket Creation<br>Jira issue with owner & SLA]
-    E[Remediation<br>Team fixes issue]
-    F[Verification<br>Re-scan / review confirms fix]
-    G[Closure / Escalation<br>Closed if resolved,<br>escalated if not]
+    A[Automated Checks<br>SAST / SCA / DAST / IaC / Container / Secrets]
+    B[Detection<br>Findings Identified]
+    C[Triage<br>Severity + Business Impact]
+    D[Jira Ticket Automation<br>Owner + SLA Assigned]
+    E[Remediation<br>Team Implements Fix]
+    F[Security Champion Review<br>Technical Validation]
+    G[Verification<br>Re-scan / Evidence Collected]
+    H[Closure<br>Resolved → Ticket Closed]
+    I[Escalation<br>Critical/High Unresolved]
+    J[ISMS Evidence Loop<br>Control Mapping + Audit Trail]
+    K[CRA/NIS2 Compliance Mapping<br>Annex I / Art. 21]
 
-    A --> B --> C --> D --> E --> F --> G
+    A --> B --> C --> D --> E --> F --> G --> H
+    G --> I
+    H --> J
+    J --> K
+
 
 
 ```
