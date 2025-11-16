@@ -19,66 +19,56 @@ flowchart TB
 
 ```mermaid
 
-flowchart LR
-
-    A[Automated Scans<br>SAST, SCA/SBOM, DAST, IaC, Container, Secrets]
-    B[Detection<br>Vulnerabilities & license issues]
-    C[Triage<br>Severity & exploitability]
-    D[Remediation<br>Developer fix + SLA tracking]
-    E[Verification<br>Re-scan / Code Review]
-    F[Closure<br>Resolved → Ticket Closed]
-    G[Escalation<br>Critical/High unresolved]
-
-    A --> B --> C --> D --> E --> F
-    E --> G
-
-
-```
-
-```mermaid
-
 flowchart TB
 
 %% ==========================
-%% TOP: SSLM CHECKS (HORIZONTAL)
+%% TOP SECTION (HORIZONTAL)
 %% ==========================
 
-subgraph SSLM [Secure Software Lifecycle Management (SSLM)]
+subgraph SSLM
 direction LR
+A1[Code Commit]
+B1[SAST]
+B2[SBOM / SCA]
+B3[API Security]
+B4[DAST]
+B5[IaC Scan]
+B6[Container Scan]
+B7[Secrets]
 
-    A1[Code Commit]
-
-    subgraph CHECKS [Automated Checks]
-    direction LR
-        B1[SAST<br>Static Code Analysis]
-        B2[SCA & SBOM<br>Open-Source Components]
-        B3[API Security Testing<br>REST / IoT APIs]
-        B4[DAST<br>Runtime / Web Testing]
-        B5[IaC Scanning<br>Cloud & Infra as Code]
-        B6[Container Scanning]
-        B7[Secrets Detection]
-    end
-
-    A1 --> B1
-    A1 --> B2
-    A1 --> B3
-    A1 --> B4
-    A1 --> B5
-    A1 --> B6
-    A1 --> B7
+A1 --> B1
+A1 --> B2
+A1 --> B3
+A1 --> B4
+A1 --> B5
+A1 --> B6
+A1 --> B7
 end
 
 %% ==========================
-%% MIDDLE: VULNERABILITY WORKFLOW (HORIZONTAL)
+%% MIDDLE SECTION (HORIZONTAL)
 %% ==========================
 
-subgraph WORKFLOW [Operational Vulnerability Workflow]
+subgraph WORKFLOW
 direction LR
-    C1[Detection<br>Findings from SSLM]
-    C2[Triage<br>Severity & Business Impact]
-    C3[Jira Ticket Automation<br>Owner + SLA]
-    C4[Remediation<br>Team Fix]
-    C5[Security Champion Review<br>High/C]()
+C1[Detection]
+C2[Triage]
+C3[Jira Ticket]
+C4[Fix by Team]
+C5[Security Champion Review]
+C6[Verification]
+C7[Close or Escalate]
+
+C1 --> C2 --> C3 --> C4 --> C5 --> C6 --> C7
+end
+
+%% LINK SSLM TO WORKFLOW
+B1 --> C1
+B2 --> C1
+B3 --> C1
+B4 --> C1
+B5 --> C1
+B6 --> C1
 
 
 ```
