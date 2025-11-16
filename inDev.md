@@ -37,25 +37,42 @@ flowchart LR
 
 ```mermaid
 
-flowchart LR
+flowchart TB
 
-    A[Automated Checks<br>SAST / SCA / DAST / IaC / Container / Secrets]
-    B[Detection<br>Findings Identified]
-    C[Triage<br>Severity + Business Impact]
-    D[Jira Ticket Automation<br>Owner + SLA Assigned]
-    E[Remediation<br>Team Implements Fix]
-    F[Security Champion Review<br>Technical Validation]
-    G[Verification<br>Re-scan / Evidence Collected]
-    H[Closure<br>Resolved → Ticket Closed]
-    I[Escalation<br>Critical/High Unresolved]
-    J[ISMS Evidence Loop<br>Control Mapping + Audit Trail]
-    K[CRA/NIS2 Compliance Mapping<br>Annex I / Art. 21]
+%% ---------------------------
+%% TOP SECTION (HORIZONTAL)
+%% ---------------------------
 
-    A --> B --> C --> D --> E --> F --> G --> H
-    G --> I
-    H --> J
-    J --> K
+subgraph TOP[High-Level Workflow]
+direction LR
+    A[Automated Checks<br>SAST / SCA / SBOM / DAST / IaC] --> B[Detection]
+    B --> C[Triage]
+    C --> D[Jira Ticket Created<br>Owner + SLA]
+    D --> E[Fix Implemented<br>By Team]
+    E --> F[Verification<br>Re-scan / Review]
+    F --> G[Close or Escalate]
+end
 
+%% Space for visual separation
+style TOP fill:#f6f6f6,stroke:#aaa,stroke-width:1px
+
+%% ---------------------------
+%% BOTTOM SECTION (VERTICAL)
+%% ---------------------------
+
+subgraph BOTTOM[Governance, Audit & Compliance Path]
+direction TB
+    H[Security Champion Review<br>High/Critical Issues]
+    I[ISMS Evidence Loop<br>Control Evidence Stored]
+    J[Compliance Mapping<br>NIS2 Art.21 / CRA Annex I / ISO 27001]
+    K[Reporting & Dashboards<br>Audit-Ready Summaries]
+end
+
+%% Connections between sections
+G --> H
+H --> I
+I --> J
+J --> K
 
 
 ```
