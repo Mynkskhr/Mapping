@@ -153,13 +153,14 @@ B2 --> D2
 
 
 flowchart LR
-  Dev[Developers / Code Commit] --> Repo[GitLab Repo<br/>(Code + Markdown Policies)]
-  Repo --> CI[GitLab CI/CD Pipeline]
-  CI --> Scans[GitLab Ultimate Security Scans<br/>(SAST · DAST · SCA · Container · Secrets)]
-  Scans --> Artifacts[Security JSON Reports + SBOM Artifacts]
-  Artifacts --> PDFJob[PDF Generator Job<br/>(Python + ReportLab)]
-  PDFJob --> PDF[Unified Security & Compliance Report (PDF)]
-  PDF --> Download[One-Click Download in GitLab UI]
+    A[Developers / Code Commit] --> B[GitLab Repository (Code and Docs)]
+    B --> C[GitLab CI/CD Pipeline]
+    C --> D[Security Scans: SAST, DAST, SCA, Container, Secrets]
+    D --> E[Security Reports and SBOM Artifacts]
+    E --> F[PDF Generator Job (Python + ReportLab)]
+    F --> G[Unified Security and Compliance PDF Report]
+    G --> H[One-Click Download in GitLab UI]
+
 
 ```
 
