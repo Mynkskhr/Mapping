@@ -153,13 +153,13 @@ B2 --> D2
 
 
 flowchart LR
-    A[Developers / Code Commit] --> B[GitLab Repository (Code and Docs)]
-    B --> C[GitLab CI/CD Pipeline]
-    C --> D[Security Scans: SAST, DAST, SCA, Container, Secrets]
-    D --> E[Security Reports and SBOM Artifacts]
-    E --> F[PDF Generator Job (Python + ReportLab)]
-    F --> G[Unified Security and Compliance PDF Report]
-    G --> H[One-Click Download in GitLab UI]
+    A["Developers / Code Commit"] --> B["GitLab Repository (Code + Docs)"]
+    B --> C["GitLab CI/CD Pipeline"]
+    C --> D["Security Scans: SAST, DAST, SCA, Container, Secrets"]
+    D --> E["Security JSON Reports + SBOM Artifacts"]
+    E --> F["PDF Generator Job (Python + ReportLab)"]
+    F --> G["Unified Security & Compliance Report (PDF)"]
+    G --> H["One-Click Download in GitLab UI"]
 
 
 ```
