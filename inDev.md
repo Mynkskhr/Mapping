@@ -164,3 +164,17 @@ flowchart LR
 
 ```
 
+```mermaid
+
+
+flowchart LR
+    A[Developers / Code Commit] --> B[GitLab Repository - Code and Docs]
+    B --> C[GitLab CI/CD Pipeline]
+    C --> D[Security Scans - SAST, DAST, SCA, Container, Secrets]
+    D --> E[Security Reports and SBOM Artifacts]
+    E --> F[PDF Generator Job using Python and ReportLab]
+    F --> G[Unified Security and Compliance PDF]
+    G --> H[One Click Download in GitLab UI]
+
+
+```
