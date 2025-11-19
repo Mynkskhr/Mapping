@@ -148,3 +148,18 @@ B2 --> D2
 
 
 ```
+
+```mermaid
+
+
+flowchart LR
+  Dev[Developers / Code Commit] --> Repo[GitLab Repo<br/>(Code + Markdown Policies)]
+  Repo --> CI[GitLab CI/CD Pipeline]
+  CI --> Scans[GitLab Ultimate Security Scans<br/>(SAST · DAST · SCA · Container · Secrets)]
+  Scans --> Artifacts[Security JSON Reports + SBOM Artifacts]
+  Artifacts --> PDFJob[PDF Generator Job<br/>(Python + ReportLab)]
+  PDFJob --> PDF[Unified Security & Compliance Report (PDF)]
+  PDF --> Download[One-Click Download in GitLab UI]
+
+```
+
