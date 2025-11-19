@@ -168,13 +168,24 @@ flowchart LR
 
 
 flowchart LR
-    A[Developers / Code Commit] --> B[GitLab Repository - Code and Docs]
-    B --> C[GitLab CI/CD Pipeline]
-    C --> D[Security Scans - SAST, DAST, SCA, Container, Secrets]
-    D --> E[Security Reports and SBOM Artifacts]
-    E --> F[PDF Generator Job using Python and ReportLab]
-    F --> G[Unified Security and Compliance PDF]
-    G --> H[One Click Download in GitLab UI]
+    A[Security findings from GitLab scans] --> B[Jira automation]
+    B --> C[Create Jira ticket with severity and CVSS]
+    C --> D[Apply SLA based on severity]
+    D --> E[Assign to owning team]
+
+    D --> S1[Critical 7 days notify CISO]
+    D --> S2[High 14 days notify Security Lead]
+    D --> S3[Medium 30 days notify Product Owner]
+    D --> S4[Low 60 days optional fix]
+
+    E --> F[Remediation in code or configuration]
+    F --> G[Verification via re scan or review]
+    G --> H[Ticket auto closed if fixed]
+    G --> I[Escalation if SLA breached]
+
+    I --> S1
+    I --> S2
+    I --> S3
 
 
 ```
