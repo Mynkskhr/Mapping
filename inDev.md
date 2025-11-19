@@ -189,3 +189,40 @@ flowchart LR
 
 
 ```
+
+```mermaid
+
+
+flowchart TB
+    subgraph DevSecOps_Layer [DevSecOps Layer]
+        D1[Code repository and merge requests]
+        D2[GitLab CI CD pipelines]
+        D3[Security scanners SAST DAST SCA Container Secrets]
+        D1 --> D2 --> D3
+    end
+
+    subgraph Governance_Layer [Governance Layer]
+        G1[Vulnerability management policy and SLAs]
+        G2[Open source license governance]
+        G3[Privacy and LINDDUN threat modelling]
+        G4[Jira workflows ownership and approvals]
+        D3 --> G1
+        D3 --> G2
+        D3 --> G4
+        G3 --> G1
+    end
+
+    subgraph Audit_Layer [Audit Layer]
+        A1[Dashboards and security metrics]
+        A2[Unified PDF security and compliance report]
+        A3[Evidence for NIS2 CRA ISO 27001 SOC 2 GDPR]
+        G1 --> A2
+        G2 --> A2
+        G3 --> A2
+        G4 --> A1
+        A1 --> A3
+        A2 --> A3
+    end
+
+
+```
